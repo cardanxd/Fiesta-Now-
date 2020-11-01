@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Pagina de prueba</h1>
     <a href="view/Login.html">Login</a>
+    <div id="test">
+
+    </div>
+
+    <script>
+
+        fetch("https://localhost:5001/api/academia")
+            .then(response => response.json())
+            .then(json => {
+
+                json.data.forEach(element => {
+                    document.getElementById("test").innerHTML += element.nombre + "<br>";
+                });
+            });
+
+
+    </script>
 </body>
+
 </html>

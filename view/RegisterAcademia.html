@@ -136,4 +136,16 @@
             </form>
         </div>
     </div>
+
+    <script>
+        fetch("https://localhost:5001/api/academia")
+        .then(response => response.json())
+        .then(data => {
+            document.getElementById("test").innerHTML += data.Nombre
+        })
+
+
+    </script>
+
+
 </body>

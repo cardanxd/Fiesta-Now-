@@ -2,62 +2,108 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
+    <title>Register</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <style>
-        body {
+        
+        :root{
+        --text-light: rgba(255,255,255,0.9);
+        --text-lighter: rgba(255,255,255,0.9);
+        --spacing-s: 8px;
+        --spacing-m: 16px;
+        --spacing-l: 18px;
+        --spacing-xl: 32px;
+        --spacing-xxl: 64px;
+        --width-container: 1200px;
+         }
+      
+      
+        body{
+            height: 100%;
             background-color: #f08621;
         }
 
-        .ClaseBoton:not(:hover){
-            cursor: pointer;
-            border-radius: 5em;
-            color: #fff;
-            background: 
-            linear-gradient(to right, #000000, #333333 );
-            border: 0;
-            padding-left: 40px;
-            padding-right: 40px;
-            padding-bottom: 10px;
-            padding-top: 10px;
-            font-family: 'Times New Roman', Times, serif;
-            font-size: 13px;
-            box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+        
+        .card-grid{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-column-gap: var(--spacing-l);
+            width: 100%;
         }
-
-        .ClaseBoton:hover{
-            border-radius: 20px;
-            border: 2px solid #353535;
-            background-color: #f08621;
-            color: #FFFFFF;
-            font-size: 12px;
-            font-weight: bold;
-            padding: 12px 45px;
-            letter-spacing: 1px;
+        
+        @media(min-width: 540px){
+            .card-grid{
+            grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+        
+        @media(min-width: 960px){
+            .card-grid{
+            grid-template-columns: repeat(2, 1fr); 
+            }
+        }
+        
+        .card{
+            list-style: none;
+            position: relative;
+            border-radius: 1em;
+        }
+        
+        .card:before{
+            content: '';
+            display: block;
+            padding-bottom: 45%;
+            width: 100%;
+        }
+        
+        .card__background{
+            background-size: cover;
+            background-position: center;
+            border-radius: var(--spacing-l);
+            bottom: 0;
+            filter: brightness(0.75) saturate(1.2) contrast(0.85);
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            transform-origin: center;
+            transform: scale(1) translateZ(0);
+            transition: 
+            filter 200ms linear,
+            transform 200ms linear;
+        }
+        
+        .card:hover .card__background{
+            transform: scale(1.02) translateZ(0);
+        }
+        
+        .card-grid:hover > .card:not(:hover) .card__background{
+            filter: brightness(0.5) saturate(0) contrast(1.2) blur(5px);
+        }
+        
+        .card__content{
+            left: 0;
+            padding: var(--spacing-l);
+            position: absolute;
+            top: 0;
+        }
+        
+        .card__category{
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: var(--spacing-s);
             text-transform: uppercase;
-            transition: transform 80ms ease-in;
+        }
+        
+        .card__heading{
+            color: var(--text-lighter);
+            font-size: 1.9rem;
+            text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+            line-height: 1.4;
+            word-spacing: 100vw;
         }
 
-        .card {
-            border-radius: 2em;
-            transition: 0.3s;
-            width: 40%;
-            }
-
-        .card:hover {
-            border-radius: 3em;
-            border-right-width: 5em;
-            border-right-color: #f08621;
-            border-left-width: 5em;
-            border-left-color: #f08621;
-            }
+            
     </style>
 </head>
 
@@ -83,29 +129,34 @@
         </div>
     </nav><br>
 
-    <h1 class="text-light text-center">!Bienvenido a GetDanceNow!</h1><br>
-    <div class="row">
-        <div class="card mx-auto" style="width: 40%; margin-bottom: 50px;">
-            <div class="card-body mx-auto">
-                <h2 class="text">Estudiante</h2><br>
-                <p>Podrás:</p><br>
-                <p>- Encontrar las academias más cerca de tí.</p>
-                <p>- Inscribirte a los cursos que ofrecen.</p><br>
-                <a href="RegisterStudent.html" class="ClaseBoton">Registrarme</a>
-            </div>
-        </div>
+    <h1 class="text-light text-center">!Bienvenido a GetDanceNow!</h1>
+    <h5 class="text-light text-center">Seleccione su tipo de registro</h5><br>
     
-        <div class="card mx-auto" style="width: 40%; margin-bottom: 50px;">
-            <div class="card-body mx-auto">
-                <h2 class="text">Academia</h2><br>
-                <p>Podrás:</p><br>
-                <p>- Administrar sus clases.</p>
-                <p>- Promocionarse.</p><br>
-                <a href="RegisterAcademia.html" class="ClaseBoton">Registrarme</a>
-            </div>
-        </div>
+    <section class="hero-section">
+        <div class="card-grid">
 
-    </div>
-    
+          <a class="card" href="./RegisterStudent.html">
+            <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-morados-con-tapabocas-5525.jpg?s=large)"></div>
+            <div class="card__content">
+                <h3 class="card__heading">Estudiante</h3>
+                <p class="card__category">Podrás:</p><br>
+                <p class="card__category">- Encontrar las academias más cerca de tí.</p>
+                <p class="card__category">- Inscribirte a los cursos que ofrecen.</p><br>
+            </div>
+          </a>
+
+          <a class="card" href="./RegisterAcademia.html">
+            <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-rojos-y-mascara-5526.jpg?s=large)"></div>
+            <div class="card__content">
+                <h3 class="card__heading">Academia</h3><br>
+                <p class="card__category">Podrás:</p><br>
+                <p class="card__category">- Administrar sus clases.</p>
+                <p class="card__category">- Promocionarse.</p><br>
+            </div>
+          </a>
+          
+        <div>
+
+    </section>
 
 </body>

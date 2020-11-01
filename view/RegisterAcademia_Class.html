@@ -140,6 +140,89 @@
             padding: 2px 16px;
             }
 
+        .checkbox-input {
+        display: none;
+        }
+
+        .checkbox-label, .checkbox-text, .checkbox-text--description {
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        }
+
+        .checkbox-label {
+        display: inline-block;
+        vertical-align: top;
+        position: relative;
+        width: 100%;
+        padding: 30px 60px;
+        cursor: pointer;
+        font-size: 24px;
+        font-weight: 400;
+        margin: 16px 0;
+        border: 1px solid #d9d9d9;
+        border-radius: 2px;
+        box-shadow: inset 0 0 0 0 #505050;
+        }
+        .checkbox-label:before {
+        content: "";
+        position: absolute;
+        top: 75%;
+        right: 16px;
+        width: 40px;
+        height: 40px;
+        opacity: 0;
+        background-color: #505050;
+        background-image: url(http://lorenzodianni.io/codepen/icon/done--white.svg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 24px;
+        border-radius: 50%;
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        }
+
+        .checkbox-text--title {
+        font-weight: 500;
+        }
+        .checkbox-text--description {
+        font-size: 14px;
+        margin-top: 16px;
+        padding-top: 16px;
+        border-top: 1px solid #505050;
+        }
+        .checkbox-text--description .un {
+        display: none;
+        }
+
+        .checkbox-input:checked + .checkbox-label {
+        border-color: #505050;
+        box-shadow: inset 0 -12px 0 0 #505050;
+        }
+        .checkbox-input:checked + .checkbox-label:before {
+        top: 0;
+        opacity: 1;
+        }
+        .checkbox-input:checked + .checkbox-label .checkbox-text {
+        -webkit-transform: translate(0, -8px);
+        transform: translate(0, -8px);
+        }
+        .checkbox-input:checked + .checkbox-label .checkbox-text--description {
+        border-color: #d9d9d9;
+        }
+        .checkbox-input:checked + .checkbox-label .checkbox-text--description .un {
+        display: inline-block;
+        }
+
+        @media screen and (min-width: 430px) {
+        .checkbox-label {
+            width: 300px;
+            margin: 16px;
+        }
+        }
+
+
     </style>
 </head>
 
@@ -178,88 +261,98 @@
               
                 <div class="row mt-4">
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Bachata</b></h4> 
-                              <button type="submit" class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Bachata" class="checkbox-input"/>
+                        <label for="Bachata" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Bachata</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Valet</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Valet" class="checkbox-input"/>
+                        <label for="Valet" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Valet</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Zumba</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Zumba" class="checkbox-input"/>
+                        <label for="Zumba" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Zumba</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
+
                     </div>
                 </div>
 
                 <div class="row mt-4">
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Bachata</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Harana" class="checkbox-input"/>
+                        <label for="Harana" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Harana</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Valet</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Merengue" class="checkbox-input"/>
+                        <label for="Merengue" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Merengue</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Zumba</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Tango" class="checkbox-input"/>
+                        <label for="Tango" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Tango</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                 </div>
 
                 <div class="row mt-4">
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Bachata</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Cha-cha-cha" class="checkbox-input"/>
+                        <label for="Cha-cha-cha" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Cha cha cha</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Valet</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Salsa" class="checkbox-input"/>
+                        <label for="Salsa" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Salsa</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                     <div class="col">
-                        <div class="cardClass">
-                            <div class="container">
-                              <h4><b>Agregar</b></h4> 
-                              <button class="btn-Tag"></button>
-                            </div>
+                        <input type="checkbox" name="baile" id="Hip-hop" class="checkbox-input"/>
+                        <label for="Hip-hop" class="checkbox-label">
+                        <div class="checkbox-text">
+                            <p class="checkbox-text--title">Hip Hop</p>
+                            <p class="checkbox-text--description">Click to <span class="un">un</span>check it!</p>
                         </div>
+                        </label>
                     </div>
                 </div>
 
 
                 <div class="row mt-5">
-                    <button type="submit" class="ClaseBoton">Registrar</button>
+                    <button type="submit" class="form-control w-4 ClaseBoton">Registrar</button>
                 </div>
             </form>
         </div>
