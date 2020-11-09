@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Iniciar sesión</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./Resources/logo.ico">
+        <link rel="stylesheet" href="./css/index-style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="bodyClass">
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+                <img src="./Resources/Logo1.png" width="6%" height="6%" alt="logoGetDanceNow">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <section class="col mt-4">
+            <div class="container">
+                <div class="row">
+                    <div class="cardForm col-md-4">
+                        <form action="" class="login-form">
+                            <h2 class="text-center col mt-4">Inicio de sesión</h2><br>
+                            <div class="form">
+                                <label class="text-uppercase">Usuario</label>
+                                <input type="text" class="form-control" placeholder="Usuario" required>
+                            </div>
+                            <div class="form">
+                                <label class="text-uppercase">Contraseña</label>
+                                <input type="password" class="form-control" placeholder="Contraseña" required>
+                            </div>
+                            <div class="col mt-4">
+                                <input type="submit" class="ClaseBoton form-control wt-4" value="Iniciar sesión"></input>
+                            </div>
+                            <div class="col mt-3">
+                                <a href="Register.html" class="ClaseBoton form-control wt-4">Crear cuenta nueva</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-8 banner-sec">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <img class="d-block img-fluid" src="./Resources/3.jpg" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="banner-text">
+                                            <h2>¡La vida es mejor bailando!</h2>
+                                            <p>Utiliza nuestra API especialmente diseñada para la ubicar lugares donde puedas aprender a bailar.
+                                                encontraras eventos cerca de ti y compartir tu opinión acerca de él.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block img-fluid" src="./Resources/4.jpg" alt="First slide">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <div class="banner-text">
+                                            <h2>¡La vida es mejor bailando!</h2>
+                                            <p>Utiliza nuestra API especialmente diseñada para la ubicar lugares donde puedas aprender a bailar.
+                                                encontraras eventos cerca de ti y compartir tu opinión acerca de él.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+
+</html>

@@ -1,0 +1,45 @@
+.bodyClass{
+    background-color: #f08621;
+}
+
+.ClaseBoton:not(:hover){
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5em;
+    color: #fff;
+    background: 
+    linear-gradient(to right, #000000, #333333 );
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+.ClaseBoton:hover{
+    border-radius: 20px;
+    text-align: center;
+    border: 2px solid #353535;
+    background-color: #f08621;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 2em;
+    transition: 0.3s;
+    width: 40%;
+    }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
