@@ -15,13 +15,12 @@
         body {
             background-color: #f08621;
         }
-
-        .ClaseBoton:not(:hover){
+        
+        .ClaseBoton:not(:hover) {
             cursor: pointer;
             border-radius: 5em;
             color: #fff;
-            background: 
-            linear-gradient(to right, #000000, #333333 );
+            background: linear-gradient(to right, #000000, #333333);
             border: 0;
             padding-left: 40px;
             padding-right: 40px;
@@ -31,8 +30,8 @@
             font-size: 13px;
             box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
         }
-
-        .ClaseBoton:hover{
+        
+        .ClaseBoton:hover {
             border-radius: 20px;
             border: 2px solid #353535;
             background-color: #f08621;
@@ -44,18 +43,17 @@
             text-transform: uppercase;
             transition: transform 80ms ease-in;
         }
-
+        
         .card {
-            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             border-radius: 2em;
             transition: 0.3s;
             width: 40%;
-            }
-
+        }
+        
         .card:hover {
-            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-            }        
-
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 
@@ -88,64 +86,56 @@
                 <div class="row mt-3">
                     <div class="col">
                         <h6 class="mt-2"> Insertar un logo</h6>
-                        <input type="file" id="photo"/>
+                        <input type="file" id="photo" />
                     </div>
                 </div>
-                
+
                 <div class="row mt-4">
                     <h6><label>Nombre de la academia</label></h6>
-                    <input type="text" class="form-control" placeholder="Nombre de la academia">
+                    <input id="academiname" type="text" class="form-control" placeholder="Nombre de la academia">
                 </div>
 
                 <div class="row mt-4">
                     <div class="col">
                         <h6><label>Contacto</label></h6>
-                        <input type="text" class="form-control" placeholder="Contacto">
+                        <input id="contact" type="text" class="form-control" placeholder="Contacto">
                     </div>
                     <div class="col">
                         <h6><label>Teléfono</label></h6>
-                        <input type="text" class="form-control" placeholder="Teléfono">
+                        <input id="number" type="text" class="form-control" placeholder="Teléfono">
                     </div>
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Dirección</label></h6>
-                    <input type="text" class="form-control" placeholder="Dirección">
+                    <input id="direccion" type="text" class="form-control" placeholder="Dirección">
                 </div>
-                
+
                 <div class="row mt-4">
                     <h6><label>Correo electrónico</label></h6>
-                    <input type="text" class="form-control" placeholder="Correo electrónico">
+                    <input id="correo" type="text" class="form-control" placeholder="Correo electrónico">
                 </div>
 
                 <div class="row mt-4">
                     <h6><label>Contraseña nueva</label></h6>
-                    <input type="password" class="form-control" placeholder="Contraseña nueva">
+                    <input id="password" type="password" class="form-control" placeholder="Contraseña nueva">
                 </div>
 
                 <div class="row mt-4">
                     <h4 class="mt-2"> Descripción</h4>
                 </div>
                 <div class="row mt-2">
-                    <textarea cols="150" rows="4"></textarea>
+                    <textarea id="descripcion" cols="150" rows="4"></textarea>
                 </div>
 
                 <div class="row mt-3">
-                    <a href="RegisterAcademia_Class.html" class="ClaseBoton">Siguiente</a>
+                    <input type="button" id="Register" class="ClaseBoton" value="Siguiente">
                 </div>
             </form>
         </div>
     </div>
 
-    <script>
-        fetch("https://localhost:5001/api/academia")
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("test").innerHTML += data.Nombre
-        })
 
-
-    </script>
-
+    <script src="./js/AcademiaRegister.js"></script>
 
 </body>

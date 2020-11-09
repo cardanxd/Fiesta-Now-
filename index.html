@@ -15,17 +15,23 @@
     </div>
 
     <script>
+        let academia = {
+            Nombre: 'Academia baile',
+            Numero: '999393939',
+            Descripcion: 'Esto es una descripcion',
+            Longitud: 150023.000,
+            Latitud: 35932.12375,
+            Logo: 'logo.png',
+            CuentaID: 1
+        };
 
-        fetch("https://localhost:5001/api/academia")
-            .then(response => response.json())
-            .then(json => {
-
-                json.data.forEach(element => {
-                    document.getElementById("test").innerHTML += element.nombre + "<br>";
-                });
-            });
-
-
+        fetch("https://localhost:5001/api/academia", {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(academia)
+        })
     </script>
 </body>
 

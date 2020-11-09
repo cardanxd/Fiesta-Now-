@@ -5,58 +5,55 @@
     <title>Register</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <style>
+         :root {
+            --text-light: rgba(255, 255, 255, 0.9);
+            --text-lighter: rgba(255, 255, 255, 0.9);
+            --spacing-s: 8px;
+            --spacing-m: 16px;
+            --spacing-l: 18px;
+            --spacing-xl: 32px;
+            --spacing-xxl: 64px;
+            --width-container: 1200px;
+        }
         
-        :root{
-        --text-light: rgba(255,255,255,0.9);
-        --text-lighter: rgba(255,255,255,0.9);
-        --spacing-s: 8px;
-        --spacing-m: 16px;
-        --spacing-l: 18px;
-        --spacing-xl: 32px;
-        --spacing-xxl: 64px;
-        --width-container: 1200px;
-         }
-      
-      
-        body{
+        body {
             height: 100%;
             background-color: #f08621;
         }
-
         
-        .card-grid{
+        .card-grid {
             display: grid;
             grid-template-columns: repeat(1, 1fr);
             grid-column-gap: var(--spacing-l);
             width: 100%;
         }
         
-        @media(min-width: 540px){
-            .card-grid{
-            grid-template-columns: repeat(2, 1fr); 
+        @media(min-width: 540px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         
-        @media(min-width: 960px){
-            .card-grid{
-            grid-template-columns: repeat(2, 1fr); 
+        @media(min-width: 960px) {
+            .card-grid {
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         
-        .card{
+        .card {
             list-style: none;
             position: relative;
             border-radius: 1em;
         }
         
-        .card:before{
+        .card:before {
             content: '';
             display: block;
             padding-bottom: 45%;
             width: 100%;
         }
         
-        .card__background{
+        .card__background {
             background-size: cover;
             background-position: center;
             border-radius: var(--spacing-l);
@@ -68,42 +65,38 @@
             top: 0;
             transform-origin: center;
             transform: scale(1) translateZ(0);
-            transition: 
-            filter 200ms linear,
-            transform 200ms linear;
+            transition: filter 200ms linear, transform 200ms linear;
         }
         
-        .card:hover .card__background{
+        .card:hover .card__background {
             transform: scale(1.02) translateZ(0);
         }
         
-        .card-grid:hover > .card:not(:hover) .card__background{
+        .card-grid:hover>.card:not(:hover) .card__background {
             filter: brightness(0.5) saturate(0) contrast(1.2) blur(5px);
         }
         
-        .card__content{
+        .card__content {
             left: 0;
             padding: var(--spacing-l);
             position: absolute;
             top: 0;
         }
         
-        .card__category{
+        .card__category {
             color: var(--text-light);
             font-size: 0.9rem;
             margin-bottom: var(--spacing-s);
             text-transform: uppercase;
         }
         
-        .card__heading{
+        .card__heading {
             color: var(--text-lighter);
             font-size: 1.9rem;
-            text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+            text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
             line-height: 1.4;
             word-spacing: 100vw;
         }
-
-            
     </style>
 </head>
 
@@ -131,32 +124,29 @@
 
     <h1 class="text-light text-center">!Bienvenido a GetDanceNow!</h1>
     <h5 class="text-light text-center">Seleccione su tipo de registro</h5><br>
-    
+
     <section class="hero-section">
-        <div class="card-grid">
+        <div class="card-grid text-center">
+            <a class="card text-center" href="./RegisterStudent.html">
+                <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-morados-con-tapabocas-5525.jpg?s=large)"></div>
+                <div class="card__content w-100">
+                    <h3 class="card__heading">Estudiante</h3>
+                    <p class="card__category">Podrás:</p><br>
+                    <p class="card__category">- Encontrar las academias más cerca de tí.</p>
+                    <p class="card__category">- Inscribirte a los cursos que ofrecen.</p><br>
+                </div>
+            </a>
 
-          <a class="card" href="./RegisterStudent.html">
-            <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-morados-con-tapabocas-5525.jpg?s=large)"></div>
-            <div class="card__content">
-                <h3 class="card__heading">Estudiante</h3>
-                <p class="card__category">Podrás:</p><br>
-                <p class="card__category">- Encontrar las academias más cerca de tí.</p>
-                <p class="card__category">- Inscribirte a los cursos que ofrecen.</p><br>
-            </div>
-          </a>
-
-          <a class="card" href="./RegisterAcademia.html">
-            <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-rojos-y-mascara-5526.jpg?s=large)"></div>
-            <div class="card__content">
-                <h3 class="card__heading">Academia</h3><br>
-                <p class="card__category">Podrás:</p><br>
-                <p class="card__category">- Administrar sus clases.</p>
-                <p class="card__category">- Promocionarse.</p><br>
-            </div>
-          </a>
-          
-        <div>
-
+            <a class="card " href="./RegisterAcademia.html">
+                <div class="card__background" style="background-image: url(https://www.xtrafondos.com/wallpapers/resized/chica-anime-con-ojos-rojos-y-mascara-5526.jpg?s=large)"></div>
+                <div class="card__content text-center w-100">
+                    <h3 class="card__heading">Academia</h3><br>
+                    <p class="card__category">Podrás:</p><br>
+                    <p class="card__category">- Administrar sus clases.</p>
+                    <p class="card__category">- Promocionarse.</p><br>
+                </div>
+            </a>
+            <div>
     </section>
 
 </body>
