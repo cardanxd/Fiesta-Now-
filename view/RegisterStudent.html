@@ -45,27 +45,28 @@
                     <div class="row mt-3">
                         <div class="col ml-4 mr-4">
                             <h6><label>Nombre</label></h6>
-                            <input type="text" class="form-control" placeholder="Nombre">
+                            <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                         </div>
                         <div class="col ml-4 mr-4">
                             <h6><label>Apellido</label></h6>
-                            <input type="text" class="form-control" placeholder="Apellidos">
+                            <input type="text" class="form-control" id="lastname" placeholder="Apellidos" required>
                         </div>
                     </div>
                     <div class="row mt-3 ml-4 mr-4">
                         <h6><label>Correo electrónico</label></h6>
-                        <input type="text" class="form-control" placeholder="Correo electrónico"> 
+                        <input type="email" class="form-control" id="email" placeholder="Correo electrónico" required> 
                     </div>
                     <div class="row mt-3 ml-4 mr-4">
                         <h6><label>Contraseña nueva</label></h6>
-                        <input type="password" class="form-control" placeholder="Contraseña nueva">
+                        <input type="password" class="form-control" id="password" placeholder="Contraseña nueva" required>
                     </div>
                     <div class="row mt-3 ml-4 mr-4">
-                        <button type="submit" class="ClaseBoton">Registrar</button>
+                        <button type="submit" class="ClaseBoton" id="addStudent">Registrar</button>
                         <a href="./Register.html" class="ClaseBoton">Cancelar</a>
                     </div>
                 </form>
             </div>
         </div>
+        <script src="./js/RegisterStudent.js"></script>
     </body>
 </html>
