@@ -5,7 +5,6 @@ document.getElementById("addStudent").addEventListener("click", function() {
         Apellido: lastname.value,
         Email: email.value,
         Password: password.value,
-
         CuentaID: 5
     }
 
