@@ -6,7 +6,7 @@ document.getElementById("addStudent").addEventListener("click", function() {
         Email: email.value,
         Password: password.value,
 
-        CuentaID: 4
+        CuentaID: 5
     }
 
     const urlStudent = 'https://localhost:5001/api/estudiante'
