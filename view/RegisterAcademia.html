@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/RegisterAcademia.css">
         <link rel="icon" href="./Resources/logo.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
@@ -42,61 +43,61 @@
         </header>
         <section>
             <h1 class="text-light text-center">Registro de la academia</h1>
-        <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
-            <div class="card-body">
-                <form>
-                    <div class="row mt-3 ml-4">
-                        <div class="col">
-                            <h6 class="mt-2"> Insertar un logo</h6>
-                            <input type="file" id="photo" />
+            <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+                <div class="card-body">
+                    <form>
+                        <div class="row mt-3 ml-4">
+                            <div class="col">
+                                <h6 class="mt-2"> Insertar un logo</h6>
+                                <input type="file" id="photo" />
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-4 ml-4 mr-4">
-                        <h6><label>Nombre de la academia</label></h6>
-                        <input id="academiname" type="text" class="form-control" placeholder="Nombre de la academia">
-                    </div>
-
-                    <div class="row mt-4 ml-2">
-                        <div class="col">
-                            <h6><label>Contacto</label></h6>
-                            <input id="contact" type="text" class="form-control" placeholder="Contacto">
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Nombre de la academia</label></h6>
+                            <input id="academiname" type="text" class="form-control" placeholder="Nombre de la academia">
                         </div>
-                        <div class="col mr-4">
-                            <h6><label>Teléfono</label></h6>
-                            <input id="number" type="text" class="form-control" placeholder="Teléfono">
+
+                        <div class="row mt-4 ml-2">
+                            <div class="col">
+                                <h6><label>Contacto</label></h6>
+                                <input id="contact" type="text" class="form-control" placeholder="Contacto">
+                            </div>
+                            <div class="col mr-4">
+                                <h6><label>Teléfono</label></h6>
+                                <input id="number" type="text" class="form-control" placeholder="Teléfono">
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="row mt-4 ml-4 mr-4">
-                        <h6><label>Dirección</label></h6>
-                        <input id="direccion" type="text" class="form-control" placeholder="Dirección">
-                    </div>
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Dirección</label></h6>
+                            <input id="direction" type="text" class="form-control">
+                        </div>
 
-                    <div class="row mt-4 ml-4 mr-4">
-                        <h6><label>Correo electrónico</label></h6>
-                        <input id="correo" type="text" class="form-control" placeholder="Correo electrónico">
-                    </div>
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Correo electrónico</label></h6>
+                            <input id="correo" type="text" class="form-control" placeholder="Correo electrónico">
+                        </div>
 
-                    <div class="row mt-4 ml-4 mr-4">
-                        <h6><label>Contraseña nueva</label></h6>
-                        <input id="password" type="password" class="form-control" placeholder="Contraseña nueva">
-                    </div>
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Contraseña nueva</label></h6>
+                            <input id="password" type="password" class="form-control" placeholder="Contraseña nueva">
+                        </div>
 
-                    <div class="row mt-4 ml-4">
-                        <h4 class="mt-2"> Descripción</h4>
-                    </div>
-                    <div class="row mt-2 ml-4 mr-4">
-                        <textarea id="descripcion" cols="150" rows="4"></textarea>
-                    </div>
+                        <div class="row mt-4 ml-4">
+                            <h4 class="mt-2"> Descripción</h4>
+                        </div>
+                        <div class="row mt-2 ml-4 mr-4">
+                            <textarea id="descripcion" cols="150" rows="4"></textarea>
+                        </div>
 
-                    <div class="row mt-3 ml-4">
-                        <input type="button" id="Register" class="ClaseBoton" value="Siguiente">
-                        <a href="./Register.html" class="ClaseBoton">Cancelar</a>
-                    </div>
-                </form>
+                        <div class="row mt-3 ml-4">
+                            <input type="button" id="Register" class="ClaseBoton" value="Siguiente">
+                            <a href="./Register.html" class="ClaseBoton">Cancelar</a>
+                        </div>
+                    </form>
+                </div>
             </div>
-        </div>
         </section>
     </body>
 </html>

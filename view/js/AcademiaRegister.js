@@ -6,7 +6,7 @@ document.getElementById("Register").addEventListener("click", function() {
         Correo: correo.value,
         Password: "fake",
         Descripcion: "Esta es una Academia falsa",
-        Direction: direccion.value,
+        Direction: direction.value,
         Longitud: 1992321512.42563,
         Latitud: 198728745872.123857129,
         Logo: photo.value,

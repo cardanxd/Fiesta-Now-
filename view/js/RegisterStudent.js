@@ -6,7 +6,7 @@ document.getElementById("addStudent").addEventListener("click", function() {
         Email: email.value,
         Password: password.value,
 
-        CuentaID: 3
+        CuentaID: 4
     }
 
     const urlStudent = 'https://localhost:5001/api/estudiante'
@@ -20,7 +20,7 @@ document.getElementById("addStudent").addEventListener("click", function() {
     })
     .then(response => response.json())
     .then(json => {
-            location.href = "./index.html"
+            location.href = "./StudentPanel.html"
     })
     .then(err => console.log(err));
 })
