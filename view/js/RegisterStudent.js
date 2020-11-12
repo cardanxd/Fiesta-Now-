@@ -19,7 +19,7 @@ document.getElementById("addStudent").addEventListener("click", function() {
     })
     .then(response => response.json())
     .then(json => {
-            location.href = "./StudentPanel.html"
+            location.href = "./EstudiantePanel.html"
     })
     .then(err => console.log(err));
 })
