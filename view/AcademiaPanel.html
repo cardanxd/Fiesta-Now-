@@ -1,72 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<head>
+    <title>Inicio - GetDanceNow</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./Resources/logo.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/panel.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
     <head>
-        <title>Panel academia</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./Resources/logo.ico">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/panel.css">
+        <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+            <img src="./Resources/Logo1.png" width="10%" height="10%" alt="logo_GetDanceNow" loading="lazy">
+
+            <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse"
+                data-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse ml-3" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-light" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active ">
+                        <a class="nav-link text-light" href="#">Crear clase <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </head>
 
-    <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <img src="./Resources/Logo1.png" width="8%" height="8%" alt="logoGetDanceNow">
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active ">
-                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+    <div class="content">
+        <div class="container">
+            <!-- Search -->
+                <div class="row mt-4">
+                    <div class="search">
+                        <input type="text" class="searchTerm" placeholder="Buscar por nombre de la clase">
+                        <button type="submit" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
                 </div>
-            </nav>
-        </header>
-        <section>
-            <div class="card w-75 mx-auto mt-5" style="min-height: 850px; padding-bottom: 60px;">
-                <div class="card-header text-center">
-                    <div class="input-group mb-2 w-50 mx-auto">
-                        <div class="input-group-prepend">
-                            <div class="input-group-text">
-                                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
-                                <path fill-rule="evenodd"
-                                    d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
-                            </svg>
+                <!-- Search -->
+            <!-- end row -->
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
                             </div>
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="buscar clase">
                     </div>
                 </div>
-                <div id="AllClass">
-                    <div id="row-1" class="row ml-1 mr-1 mt-5">
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+                <div class="col-lg-4">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="">
+                                <h4>CLASE #1</h4>
+                                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Similique dolorem iure aperiam eum, illum voluptates qui distinctio corporis
+                                    consectetur pariatur porro minima amet fugiat architecto eius ut perferendis itaque
+                                    suscipit.</p>
+                            </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Editar"><i
+                                            class="fa fa-pencil"></i></a></li>
+                                <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                        class="tooltips" href="" data-original-title="Twitter"><i
+                                            class="fa fa-trash"></i></a></li>
+                            </ul>
+                            <h4>Horario de la semana</h4>
+                            <div id='horario' class='contenedor'>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                                <p>Miércoles : 12:00 a 23:00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end col -->
+            </div>
+        </div>
+        <!-- container -->
+    </div>
+
     
-                    </div>
-                </div>
-        </section>
-        
-            <script>
-                function CreateCard(clase) {
-                    card = "\
+
+    <script>
+        function CreateCard(clase) {
+            card = "\
                 <div class='col'> \
                 <div class='card'> \
                     <div class='card-header text-center'>\
@@ -106,22 +402,35 @@
                     </div>\
                 </div>\
             </div>";
-                    return card;
-                }
-                fetch("https://localhost:5001/api/academia")
-                    .then(response => response.json())
-                    .then(json => {
-                        let row = 1;
-                        let index = 0;
-                        json.data.forEach(element => {
-                            if (index % 3 == 0 && index != 0) {
-                                row++;
-                                document.getElementById("AllClass").innerHTML += "<div id='row-" + row + "' class='row ml-1 mr-1 mt-5'></div>";
-                            }
-                            document.getElementById("row-" + row).innerHTML += CreateCard(element.nombre)
-                            index++;
-                        });
-                    });
-            </script>
-    </body>
+            return card;
+        }
+        fetch("https://localhost:5001/api/academia")
+            .then(response => response.json())
+            .then(json => {
+                let row = 1;
+                let index = 0;
+                json.data.forEach(element => {
+                    if (index % 3 == 0 && index != 0) {
+                        row++;
+                        document.getElementById("AllClass").innerHTML += "<div id='row-" + row + "' class='row ml-1 mr-1 mt-5'></div>";
+                    }
+                    document.getElementById("row-" + row).innerHTML += CreateCard(element.nombre)
+                    index++;
+                });
+            });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
