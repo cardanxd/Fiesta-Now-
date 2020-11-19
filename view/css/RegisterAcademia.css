@@ -2,11 +2,6 @@
     background-color: #f08621;
 }
 
-#map{
-    width: 500px;
-    height: 500px;
-}
-
 .ClaseBoton:not(:hover) {
     cursor: pointer;
     border-radius: 5em;

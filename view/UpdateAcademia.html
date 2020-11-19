@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registro - Academia</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/DeleteAcademia.css">
+        <link rel="icon" href="./Resources/logo.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <script src="./js/AcademiaRegister.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </head>
+
+    <body class="bodyClass">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light  bg-dark">
+                <img src="./Resources/Logo1.png" width="6%" height="6%" alt="logoGetDanceNow">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active ">
+                            <a class="nav-link text-light" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section>
+            <h1 class="text-light text-center mt-4">Detalles de la academia</h1>
+            <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+                <div class="card-body">
+                    <form>
+                        <div class="row mt-3 ml-4">
+                            <div class="col">
+                                <h6 class="mt-2"> Insertar un logo</h6>
+                                <input type="file" id="photo" />
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Nombre de la academia</label></h6>
+                            <input id="academiname" type="text" class="form-control" placeholder="Nombre de la academia">
+                        </div>
+
+                        <div class="row mt-4 ml-2">
+                            <div class="col">
+                                <h6><label>Contacto</label></h6>
+                                <input id="contact" type="text" class="form-control" placeholder="Contacto">
+                            </div>
+                            <div class="col mr-4">
+                                <h6><label>Teléfono</label></h6>
+                                <input id="number" type="text" class="form-control" placeholder="Teléfono">
+                            </div>
+                        </div>
+
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Dirección</label></h6>
+                            <input id="direction" type="text" class="form-control" placeholder="Dirección">
+                        </div>
+
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Correo electrónico</label></h6>
+                            <input id="correo" type="text" class="form-control" placeholder="Correo electrónico">
+                        </div>
+
+                        <div class="row mt-4 ml-4 mr-4">
+                            <h6><label>Contraseña nueva</label></h6>
+                            <input id="password" type="password" class="form-control" placeholder="Contraseña nueva">
+                        </div>
+
+                        <div class="row mt-4 ml-4">
+                            <h4 class="mt-2"> Descripción</h4>
+                        </div>
+                        <div class="row mt-2 ml-4 mr-4">
+                            <textarea id="descripcion" cols="150" rows="4"></textarea>
+                        </div>
+
+                        <div class="row mt-3 ml-4">
+                            <input type="button" id="Update" class="btn-hover color-8" value="Actualizar">
+                            <button class="btn-hover color-8"><a class=" text-light" href="#">Cancelar</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
