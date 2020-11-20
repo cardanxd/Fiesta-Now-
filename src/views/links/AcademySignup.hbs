@@ -1,55 +1,55 @@
- <h1 class="text-light text-center">Registro de la academia</h1>
-    <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
-        <div class="card-body">
-            <form method="POST" action="/links/AcademySignup">
-                <div class="row mt-3">
-                    <div class="col">
-                        <h6 class="mt-2"> Insertar un logo</h6>
-                        <input type="file" name="photo" />
-                    </div>
+<h1 class="text-light text-center mt-4">Registro de la academia</h1>
+<div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div >
+        <form method="POST" action="/links/AcademySignup">
+            <div class="row mt-3 ml-4">
+                <div class="col">
+                    <h6 class="mt-2"> Insertar un logo</h6>
+                    <input type="file" name="photo" />
                 </div>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Nombre de la academia</label></h6>
+                <input name="academy" type="text" class="form-control" placeholder="Nombre de la academia" required>
+            </div>
 
-                <div class="row mt-4">
-                    <h6><label>Nombre de la academia</label></h6>
-                    <input name="academy" type="text" class="form-control" placeholder="Nombre de la academia">
+            <div class="row mt-4 ml-2">
+                <div class="col">
+                    <h6><label>Contacto</label></h6>
+                    <input name="contact" type="text" class="form-control" placeholder="Contacto" required>
                 </div>
+                <div class="col mr-4">
+                    <h6><label>Teléfono</label></h6>
+                    <input name="number" type="text" class="form-control" placeholder="Teléfono" required>
+                </div>
+            </div>
 
-                <div class="row mt-4">
-                    <div class="col">
-                        <h6><label>Contacto</label></h6>
-                        <input name="contact" type="text" class="form-control" placeholder="Contacto">
-                    </div>
-                    <div class="col">
-                        <h6><label>Teléfono</label></h6>
-                        <input name="number" type="text" class="form-control" placeholder="Teléfono">
-                    </div>
-                </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Dirección</label></h6>
+                <input name="direccion" type="text" class="form-control" placeholder="Dirección" required>
+            </div>
 
-                <div class="row mt-4">
-                    <h6><label>Dirección</label></h6>
-                    <input name="direccion" type="text" class="form-control" placeholder="Dirección">
-                </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Correo electrónico</label></h6>
+                <input name="correo" type="text" class="form-control" placeholder="Correo electrónico" required>
+            </div>
 
-                <div class="row mt-4">
-                    <h6><label>Correo electrónico</label></h6>
-                    <input name="correo" type="text" class="form-control" placeholder="Correo electrónico">
-                </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Contraseña nueva</label></h6>
+                <input name="password" type="password" class="form-control" placeholder="Contraseña nueva" required>
+            </div>
 
-                <div class="row mt-4">
-                    <h6><label>Contraseña nueva</label></h6>
-                    <input name="password" type="password" class="form-control" placeholder="Contraseña nueva">
-                </div>
+            <div class="row mt-4 ml-4">
+                <h4 class="mt-2"> Descripción</h4>
+            </div>
+            <div class="row mt-2 ml-4 mr-4">
+                <textarea name="descripcion" cols="150" rows="4"></textarea>
+            </div>
 
-                <div class="row mt-4">
-                    <h4 class="mt-2"> Descripción</h4>
-                </div>
-                <div class="row mt-2">
-                    <textarea name="descripcion" cols="150" rows="4"></textarea>
-                </div>
-
-                <div class="row mt-3">
-                    <input type="submit" name="Register" class="ClaseBoton" value="Siguiente">
-                </div>
-            </form>
-        </div>
+            <div class="row mt-3 ml-4">
+                <input type="submit" name="Register" class="btn-hover color-8" value="Siguiente">
+                <button class="btn-hover color-1"><a class=" text-light" href="/links/type">Cancelar</a></button>
+            </div>
+        </form>
     </div>
+</div>

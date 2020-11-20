@@ -48,3 +48,51 @@
     font-size: 0.813em;
     box-shadow: 0 0 1.25em 0.063em rgba(0, 0, 0, 0.04);
 }
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+
+.btn-hover {
+    width: 150px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+    height: 40px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+.btn-hover.color-5 {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+.btn-hover.color-11 {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  
+    box-shadow: 0 4px 15px rgba(242, 97, 103, .4);
+}
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563,  #fab371, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
