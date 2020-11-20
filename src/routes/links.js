@@ -132,6 +132,17 @@ router.get('/DeleteAcademy', (req, res) => {
 })
 
 
+router.get('/UpdateAcademy', async(req, res) => {
+    let academy = await Academy.GetById(req.session.AcademyId);
+    res.render('links/UpdateAcademy', { academy: academy });
+})
+
+router.post('/UpdateAcademy', async(req, res) => {
+    if (await Academy.Update(req.session.AcademyId, req.body))
+        res.redirect("/links/UpdateAcademy");
+    else
+        res.redirect("/error");
+})
 
 
 

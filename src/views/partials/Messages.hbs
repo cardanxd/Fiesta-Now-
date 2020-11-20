@@ -1,25 +1,38 @@
 {{#if success}}
-<div class="row">
+  <div class="row">
     <div class="col-md mx-auto">
-        <div class="alert alert-secces alert-dismissible fade show">
-            {{succes}}
-            <button type="button" class="close" data-dismis="alert" aria-label="Close">
+      <div class="alert alert-secces alert-dismissible fade show">
+        {{succes}}
+        <button
+          type="button"
+          class="close"
+          data-dismis="alert"
+          aria-label="Close"
+        >
           <samp aria-hidden="true">
             ×
           </samp>
         </button>
-        </div>
+      </div>
     </div>
-</div>
-{{/if}} {{#if failLogin}}
-<div class="row">
+  </div>
+{{/if}}
+{{#if failLogin}}
+  <div class="row">
     <div class="col-md mx-auto">
-        <div class="alert alert-danger" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button> {{failLogin}}
-        </div>
-
+      <div class="alert alert-danger" role="alert">
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">
+            ×
+          </span>
+        </button>
+        {{failLogin}}
+      </div>
     </div>
-</div>
+  </div>
 {{/if}}

@@ -20,6 +20,7 @@ Academy.Add = async function(Academy) {
         Logo: Academy.photo,
         Rol: 1
     }
+
     console.log(obj);
     let response = await fetch("https://localhost:5001/api/academia", {
         agent,
@@ -81,6 +82,49 @@ Academy.GetById = async function(Id) {
 
     return;
 }
+
+Academy.Update = async function(Id, academy) {
+    const fetch = require("node-fetch")
+    const https = require("https");
+    const agent = new https.Agent({
+        rejectUnauthorized: false
+    });
+
+    let obj = {
+        nombre: academy.Nombre,
+        numero: academy.Numero,
+        descripcion: academy.Descripcion,
+        direction: academy.Direction,
+        longitud: parseFloat(academy.Longitud),
+        latitud: parseFloat(academy.Latitud),
+        logo: academy.photo
+    }
+
+    try {
+
+        let UrlPut = "https://localhost:5001/api/Academia/" + Id;
+        console.log(UrlPut, JSON.stringify(obj));
+
+        let response = await fetch(UrlPut, {
+            agent,
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(obj)
+        })
+        console.log(response);
+
+        return true;
+    } catch (e) {
+        console.log("Error", "color:red");
+        return false;
+    }
+
+    return false;
+
+}
+
 
 
 module.exports = Academy;
