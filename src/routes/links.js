@@ -19,16 +19,11 @@ router.post('/StudentSignup', async(req, res) => {
 })
 
 router.get('/type', (req, res) => {
-    //console.log(horarios)
     res.render('links/type');
 })
 
-router.get('/PanelEstudiante', async(req, res) => {
-    const panel = await PanelAcademi.GetClass(req.session.AcademyId); //
-    const horarios = await PanelAcademi.GetHorario(panel);
-
-    //console.log(horarios)
-    res.render('links/EstudiantePanel', { horarios: horarios });
+router.get('/PanelEstudiante', (req, res) => {
+    res.render('links/EstudiantePanel');
 })
 
 module.exports = router;

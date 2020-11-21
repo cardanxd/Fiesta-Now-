@@ -1,54 +1,331 @@
 <head>
-    <link rel="stylesheet" href="/css/panel.css">
+    <!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+	<!-- nouislider -->
+	<link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="./css/EstudiantePanel.css">
 </head>
 
-<div class="content mt-5">
+<div class="section">
+    <!-- container -->
     <div class="container">
-        <div>
-            <div class="card-body">
-                <div class="row mt-4">
-                    <div class="search mx-auto">
-                        <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
-                            placeholder="Buscar por nombre de la clase">
-                        <button type="button" class="searchButton">
-                            <i class="fa fa-search"></i>
-                        </button>
+        <div class="section-title">
+            <h3 class="title" style="color: white;">Categorias</h3>
+
+        </div>
+        <!-- row -->
+        <div class="row">
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/tendencias.jpg" alt="">
                     </div>
-                </div>
-                <div class="row mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-2">
-                    {{#each horarios}}
-                    <div class="col-lg-4" name="Target">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="">
-                                    <h4>{{clase.nombre}}</h4>
-                                </div>
-                                <ul class="social-links list-inline">
-                                    <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
-                                            class="tooltips" href="" data-original-title="Editar"><i
-                                                class="fa fa-pencil"></i></a></li>
-                                    <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
-                                            class="tooltips" href="" data-original-title="Eliminar"><i
-                                                class="fa fa-trash"></i></a></li>
-                                </ul>
-                                <h6 class="mt-4">Horario de la semana</h6>
-                                <div id='horario' class='contenedor'>
-                                    <div class="card-body">
-                                        {{#each horarios}}
-                                        <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
-                                        {{/each}}
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="shop-body">
+                        <h3>Tendencias</h3>
+                        <a href="#" class="cta-btn">Ir ahora <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
-                    {{else}}
-                    <div class="mx-auto text-center">
-                        <p>agrega una nueva clase</p>
-                    </div>
-                    {{/each}}
                 </div>
             </div>
+            <!-- /shop -->
+
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/escuelas.jpg" alt="">
+                    </div>
+                    <div class="shop-body">
+                        <h3>Escuelas</h3>
+                        <a href="#" class="cta-btn">Ir ahora <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /shop -->
+
+            <!-- shop -->
+            <div class="col-md-4 col-xs-6">
+                <div class="shop">
+                    <div class="shop-img">
+                        <img src="./img/clases.jpg" alt="">
+                    </div>
+                    <div class="shop-body">
+                        <h3>Clases</h3>
+                        <a href="#" class="cta-btn">Ir ahora <i class="fa fa-arrow-circle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- /shop -->
         </div>
-        <script src="/js/Panel.js"></script>
+        <!-- /row -->
     </div>
+    <!-- /container -->
+</div>
+<!-- SECTION -->
+
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title" style="color: white;">tipos de bailes</h3>
+
+                </div>
+            </div>
+            <!-- /section title -->
+
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs">
+                        <!-- tab -->
+                        <div id="tab1" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-1">
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/bachata.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">bachata</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/ballet.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">ballet</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/zumba.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">zumba</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/merengue_2.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">merengue</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/tango.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">tango</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/cha_cha_cha.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">cha cha cha</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/salsa.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">salsa</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+
+                                <!-- product -->
+                                <div class="product">
+                                    <div class="product-img">
+                                        <img src="./img/hiphop.jpg" alt="">
+                                    </div>
+                                    <div class="product-body">
+                                        <p class="product-category">Category</p>
+                                        <h3 class="product-name"><a href="#">hip hop</a></h3>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <div class="product-btns">
+                                            <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span
+                                                    class="tooltipp">favoritos</span></button>
+                                            <button class="quick-view"><i class="fa fa-eye"></i><span
+                                                    class="tooltipp">ver informacion</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-1" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                    </div>
+                </div>
+            </div>
+            <!-- Products tab & slick -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/nouislider.min.js"></script>
+<script src="js/jquery.zoom.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
