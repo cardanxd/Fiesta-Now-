@@ -1,0 +1,29 @@
+<h1 class="text-light text-center mt-4">Registro del estudiante</h1>
+<div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div>
+        <form method="POST" action="/links/StudentSignup">
+            <div class="row mt-4 ml-2">
+                <div class="col">
+                    <h6><label>Nombre</label></h6>
+                    <input name="nombre" type="text" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col mr-4">
+                    <h6><label>Apellidos</label></h6>
+                    <input name="apellidos" type="text" class="form-control" placeholder="Apellidos" required>
+                </div>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Correo electrónico</label></h6>
+                <input name="correo" type="text" class="form-control" placeholder="Correo electrónico" required>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Contraseña nueva</label></h6>
+                <input name="password" type="text" class="form-control" placeholder="Contraseña nueva" required>
+            </div>
+            <div class="row mt-3 ml-4">
+                <input type="submit" name="Register" class="btn-hover color-8" value="Registrarme">
+                <button class="btn-hover color-1"><a class=" text-light" href="/links/type">Cancelar</a></button>
+            </div>
+        </form>
+    </div>
+</div>

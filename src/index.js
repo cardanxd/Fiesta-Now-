@@ -5,11 +5,11 @@ const path = require('path')
 const flash = require("connect-flash");
 const session = require('express-session')
 
-
 const app = express();
+
 //require("./lib/passport");
-require("./lib/ClassGestion");
-require("./lib/GestionAcademy");
+require("./lib/GestionStudent");
+
 //setings
 app.set('port', process.env.PORT || 4000)
 app.set('views', path.join(__dirname, 'views'))
@@ -25,7 +25,7 @@ app.engine('.hbs', exphbs({
 
 app.set('view engine', '.hbs');
 
-//middlewere
+//Middlewere
 //app.use(cookieParser());
 app.use(session({
 
@@ -44,8 +44,6 @@ app.use(flash());
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: false }))
 app.use(express.json());
-
-
 
 //Global variables
 app.use((req, res, next) => {

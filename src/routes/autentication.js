@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const fetch = require("node-fetch")
 
-async function ExistAcademy(account) {
+async function ExistStudent(account) {
     const fetch = require("node-fetch")
     const https = require("https");
 
@@ -10,7 +10,7 @@ async function ExistAcademy(account) {
         rejectUnauthorized: false
     });
 
-    let academy;
+    let student;
 
     try {
 
@@ -24,23 +24,23 @@ async function ExistAcademy(account) {
         const response = await result.json();
 
         if (response.data.id > 0) {
-            url = "https://localhost:5001/api/academia/Accout/" + response.data.id;
+            url = "https://localhost:5001/api/estudiante/Accout/" + response.data.id;
             console.log(url);
-            var queryAcademy = await fetch(url, {
+            var queryStudent = await fetch(url, {
                 agent,
                 headers: {
                     'Content-Type': 'application/json'
                 }
             })
 
-            academy = await queryAcademy.json();
-            academy = academy.data
+            student = await queryStudent.json();
+            student = student.data
         }
     } catch (e) {
         console.log(e);
     }
 
-    return academy;
+    return student;
 }
 
 router.get('/signin', (req, res) => {
@@ -48,19 +48,16 @@ router.get('/signin', (req, res) => {
 })
 
 router.post("/signin", async(req, res) => {
-    let redirect = "/links/PanelAcademia";
-    const Academy = await ExistAcademy(req.body);
-    console.log(Academy);
-    if (Academy)
-        req.session.AcademyId = Academy.id;
+    let redirect = "/links/PanelEstudiante";
+    const Student = await ExistStudent(req.body);
+    console.log(Student);
+    if (Student)
+        req.session.StudentId = Student.id;
     else {
-        req.flash('failLogin', 'No se encontro ninguna cuenta con esos datos registrada, favor de verificar los datos');
+        req.flash('failLogin', 'No se encontró ninguna cuenta con esos datos registrada, favor de verificar los datos');
         redirect = "/signin";
     }
     res.redirect(redirect);
 })
-
-
-
 
 module.exports = router;

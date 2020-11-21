@@ -1,0 +1,54 @@
+<head>
+    <link rel="stylesheet" href="/css/panel.css">
+</head>
+
+<div class="content mt-5">
+    <div class="container">
+        <div>
+            <div class="card-body">
+                <div class="row mt-4">
+                    <div class="search mx-auto">
+                        <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
+                            placeholder="Buscar por nombre de la clase">
+                        <button type="button" class="searchButton">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="row mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-2">
+                    {{#each horarios}}
+                    <div class="col-lg-4" name="Target">
+                        <div class="text-center card-box">
+                            <div class="member-card pt-2 pb-2">
+                                <div class="">
+                                    <h4>{{clase.nombre}}</h4>
+                                </div>
+                                <ul class="social-links list-inline">
+                                    <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                            class="tooltips" href="" data-original-title="Editar"><i
+                                                class="fa fa-pencil"></i></a></li>
+                                    <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
+                                            class="tooltips" href="" data-original-title="Eliminar"><i
+                                                class="fa fa-trash"></i></a></li>
+                                </ul>
+                                <h6 class="mt-4">Horario de la semana</h6>
+                                <div id='horario' class='contenedor'>
+                                    <div class="card-body">
+                                        {{#each horarios}}
+                                        <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{else}}
+                    <div class="mx-auto text-center">
+                        <p>agrega una nueva clase</p>
+                    </div>
+                    {{/each}}
+                </div>
+            </div>
+        </div>
+        <script src="/js/Panel.js"></script>
+    </div>
