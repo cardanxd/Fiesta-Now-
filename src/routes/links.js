@@ -26,4 +26,8 @@ router.get('/PanelEstudiante', (req, res) => {
     res.render('links/EstudiantePanel');
 })
 
+router.get('/Academias', (req, res) => {
+    res.render('links/AcademiasAll');
+})
+
 module.exports = router;
