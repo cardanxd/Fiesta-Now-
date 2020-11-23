@@ -13,6 +13,8 @@ router.get('/StudentSignup', (req, res) => {
 
 router.post('/StudentSignup', async(req, res) => {
     let student = await Student.Add(req.body);
+    console.log(req.body);
+    console.log(student);
     req.session.StudentId = student.id;
 
     res.redirect("/links/PanelEstudiante");
