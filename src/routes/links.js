@@ -1,10 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-const fetch = require("node-fetch")
-const PanelEstudiante = require('./../lib/PanelStudent');
-const Academy = require('./../lib/GestionStudent');
 const Student = require('./../lib/GestionStudent');
+const Academias = require('./../lib/Academias');
 
 router.get('/StudentSignup', (req, res) => {
     //console.log(horarios)
@@ -28,8 +26,17 @@ router.get('/PanelEstudiante', (req, res) => {
     res.render('links/EstudiantePanel');
 })
 
-router.get('/Academias', (req, res) => {
+router.get('/Academias', async(req, res) => {
+
+    const panel = await Academias.GetAll();
     res.render('links/AcademiasAll');
 })
+
+router.get('/Academias', async(req, res) => {
+
+    const panel = await Academias.GetAcademias();
+    res.render('links/AcademiasAll');
+})
+
 
 module.exports = router;
