@@ -55,4 +55,67 @@ Student.GetById = async function(Id) {
     return;
 }
 
+Student.Delete = async function(id) {
+    const fetch = require("node-fetch")
+    const https = require("https");
+    const agent = new https.Agent({
+        rejectUnauthorized: false
+    });
+
+    try {
+
+        let UrlDelete = "https://localhost:5001/api/estudiante" + id;
+        console.log(UrlDelete);
+        let response = await fetch(UrlDelete, {
+            agent,
+            method: "DELETE"
+        })
+
+        return response.status < 500;
+    } catch (e) {
+        console.log("Error", "color:red");
+        return 0;
+    }
+    return 0;
+}
+
+Student.Update = async function(Id, academy) {
+    const fetch = require("node-fetch")
+    const https = require("https");
+    const agent = new https.Agent({
+        rejectUnauthorized: false
+    });
+
+    let obj = {
+        Nombre: Student.nombre,
+        Apellido: Student.apellidos,
+        Correo: Student.correo,
+        Password: Student.password
+    }
+
+    try {
+
+        let UrlPut = "https://localhost:5001/api/estudiante" + Id;
+        console.log(UrlPut, JSON.stringify(obj));
+
+        let response = await fetch(UrlPut, {
+            agent,
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(obj)
+        })
+        console.log(response);
+
+        return true;
+    } catch (e) {
+        console.log("Error", "color:red");
+        return false;
+    }
+
+    return false;
+
+}
+
 module.exports = Student;

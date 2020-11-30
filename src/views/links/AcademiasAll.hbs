@@ -7,13 +7,14 @@
         <div>
             <div class="card-body">
                 <div class="row mt-5">
-
+                    {{#each academias}}
+                    <!-- tarjetas de las clases -->
                     <div class="col-lg-4" name="Target">
                         <div class="text-center card-box">
                             <div class="member-card pt-2 pb-2">
                                 <div class="col">
                                     <div class="mx-auto row">
-                                        <h4 class="mr-4">{{academia.nombre}}</h4>
+                                        <h4 class="mr-4">{{nombre}}</h4>
                                         <ul class="social-links list-inline">
                                             <li class="list-inline-item"><a title="" data-placement="top"
                                                     data-toggle="tooltip" class="tooltips" href=""
@@ -31,7 +32,7 @@
                                     </div>
                                 </div>
                                 <p class="text-muted">
-                                    {{academia.Direccion}}
+                                    sjdhsajkdsadsa
                                 </p>
                                 <div class="col">
                                     <div class="row">
@@ -39,15 +40,14 @@
                                     </div>
                                 </div>
                                 <p class="text-muted">
-                                    {{academia.Descripcion}}
+                                    asdjfdsiuhfnsd
                                 </p>
                             </div>
                         </div>
                     </div>
-
+                {{/each}}
                 </div>
             </div>
-            <!-- container -->
         </div>
     </div>
 </div>

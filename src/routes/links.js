@@ -28,15 +28,23 @@ router.get('/PanelEstudiante', (req, res) => {
 
 router.get('/Academias', async(req, res) => {
 
-    const panel = await Academias.GetAll();
-    res.render('links/AcademiasAll');
+    const academias = await Academias.GetAcademias();
+    //const academias = await Academias.GetAll();
+    console.log(academias);
+    res.render('links/AcademiasAll', { academias: academias });
 })
 
-router.get('/Academias', async(req, res) => {
-
-    const panel = await Academias.GetAcademias();
-    res.render('links/AcademiasAll');
+router.get('/UpdateStudent', async(req, res) => {
+    let student = await Student.GetById(req.session.StudentId);
+    console.log(student);
+    res.render('links/UpdateStudent', { student: student });
 })
 
+router.post('/UpdateStudent', async(req, res) => {
+    if (await Student.Update(req.session.StudentId, req.body))
+        res.redirect("/links/UpdateStudent");
+    else
+        res.redirect("/error");
+})
 
 module.exports = router;
