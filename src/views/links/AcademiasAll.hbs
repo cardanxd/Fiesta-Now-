@@ -8,46 +8,37 @@
             <div class="card-body">
                 <div class="row mt-5">
                     {{#each academias}}
-                    <!-- tarjetas de las clases -->
                     <div class="col-lg-4" name="Target">
                         <div class="text-center card-box">
                             <div class="member-card pt-2 pb-2">
                                 <div class="col">
-                                    <div class="mx-auto row">
-                                        <h4 class="mr-4">{{nombre}}</h4>
-                                        <ul class="social-links list-inline">
-                                            <li class="list-inline-item"><a title="" data-placement="top"
-                                                    data-toggle="tooltip" class="tooltips" href=""
-                                                    data-original-title="Editar"><i class="fa fa-heart"></i></a></li>
-                                            <li class="list-inline-item"><a title="" data-placement="top"
-                                                    data-toggle="tooltip" class="tooltips" href=""
-                                                    data-original-title="Twitter"><i class="fa fa-eye"></i></a></li>
-                                        </ul>
-                                    </div>
+                                    <h4 class="mr-4">{{nombre}}</h4>
                                 </div>
-                                
+
                                 <div class="col mt-4">
                                     <div class="row">
-                                        <h4 class="mr-2">Direccion</h4>
+                                        <h4 class="mr-2">Número telefónico</h4>
                                     </div>
                                 </div>
                                 <p class="text-muted">
-                                    sjdhsajkdsadsa
+                                    {{numero}}
                                 </p>
                                 <div class="col">
                                     <div class="row">
-                                        <h4 class="mr-2">Descripcion</h4>
+                                        <h4 class="mr-2">Descripción</h4>
                                     </div>
                                 </div>
                                 <p class="text-muted">
-                                    asdjfdsiuhfnsd
+                                    {{descripcion}}
                                 </p>
                             </div>
                         </div>
                     </div>
-                {{/each}}
+                    {{/each}}
                 </div>
+
             </div>
+            <!-- container -->
         </div>
     </div>
 </div>

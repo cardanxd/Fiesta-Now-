@@ -79,7 +79,7 @@ Student.Delete = async function(id) {
     return 0;
 }
 
-Student.Update = async function(Id, academy) {
+Student.Update = async function(Id, Student) {
     const fetch = require("node-fetch")
     const https = require("https");
     const agent = new https.Agent({
@@ -87,10 +87,10 @@ Student.Update = async function(Id, academy) {
     });
 
     let obj = {
-        Nombre: Student.nombre,
-        Apellido: Student.apellidos,
-        Correo: Student.correo,
-        Password: Student.password
+        Nombre: student.nombre,
+        Apellido: student.apellidos,
+        Correo: student.correo,
+        Password: student.password
     }
 
     try {

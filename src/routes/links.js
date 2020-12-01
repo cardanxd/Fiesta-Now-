@@ -5,7 +5,6 @@ const Student = require('./../lib/GestionStudent');
 const Academias = require('./../lib/Academias');
 
 router.get('/StudentSignup', (req, res) => {
-    //console.log(horarios)
     res.render('links/StudentSignup');
 })
 
@@ -27,17 +26,31 @@ router.get('/PanelEstudiante', (req, res) => {
 })
 
 router.get('/Academias', async(req, res) => {
-
     const academias = await Academias.GetAcademias();
-    //const academias = await Academias.GetAll();
     console.log(academias);
-    res.render('links/AcademiasAll', { academias: academias });
+    res.render('links/AcademiasAll', { academias });
 })
+
+router.get('/DeleteStudent', async(req, res) => {
+    let student = await Student.GetById(req.session.StudentId);
+    res.render('links/DeleteStudent', { student: student });
+})
+
+router.post('/DeleteStudent', async(req, res) => {
+    if (await Student.Delete(req.session.StudentId)) {
+        req.session.estudianteId = 0;
+        res.redirect("/signin");
+    } else {
+        res.redirect("/error");
+    }
+})
+
+
 
 router.get('/UpdateStudent', async(req, res) => {
     let student = await Student.GetById(req.session.StudentId);
-    console.log(student);
     res.render('links/UpdateStudent', { student: student });
+    console.log(req.session.StudentId)
 })
 
 router.post('/UpdateStudent', async(req, res) => {
