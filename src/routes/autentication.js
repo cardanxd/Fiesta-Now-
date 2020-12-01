@@ -44,7 +44,8 @@ async function ExistStudent(account) {
 }
 
 router.get('/signin', (req, res) => {
-    res.render("auth/signin")
+
+    res.render("auth/signin", req.flash('navbar', true)[0])
 })
 
 router.post("/signin", async(req, res) => {
@@ -58,6 +59,12 @@ router.post("/signin", async(req, res) => {
         redirect = "/signin";
     }
     res.redirect(redirect);
+})
+
+router.get('/logout', (req, res) => {
+    req.session.StudentId = 0;
+    res.redirect("/signin");
+
 })
 
 module.exports = router;

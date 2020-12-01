@@ -1,0 +1,62 @@
+{{> navStudent}}
+<h1 class="text-light text-center mt-4">Eliminar estudiante</h1>
+<div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div>
+        <form method="POST" action="/links/StudentSignup">
+            <div class="row mt-4 ml-2">
+                <div class="col">
+                    <h6><label>Nombre</label></h6>
+                    <input name="nombre" type="text" class="form-control" placeholder="Nombre"
+                        value="{{student.nombre}}">
+                </div>
+                <div class="col mr-4">
+                    <h6><label>Apellidos</label></h6>
+                    <input name="apellidos" type="text" class="form-control" placeholder="Apellidos"
+                        value="{{student.apellidos}}">
+                </div>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Correo electrónico</label></h6>
+                <input name="correo" type="text" class="form-control" placeholder="Correo electrónico"
+                    value="{{student.correo}}">
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Contraseña nueva</label></h6>
+                <input name="password" type="text" class="form-control" placeholder="Contraseña nueva"
+                    value="{{student.password}}">
+            </div>
+
+            <div class="row mt-3 ml-4">
+                <button type="button" class="btn-hover color-8" data-toggle="modal"
+                    data-target="#myModal">Eliminar</button>
+                <!-- The Modal -->
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">¿Está seguro que desea eliminar el estudiante?</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                Se perderán todos los datos y no podrán ser recuperados.
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+
+                                <input type="submit" value="Eliminar" id="Delete" class="btn btn-danger" />
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <button class="btn-hover color-1"><a class=" text-light" href="/links/PanelEstudiante">Cancelar</a></button>
+            </div>
+        </form>
+    </div>
+</div>

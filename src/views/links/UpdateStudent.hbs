@@ -1,12 +1,12 @@
-{{> navigation}}
+{{> navStudent}}
 <h1 class="text-light text-center mt-4">Actualizar datos del estudiante</h1>
 <div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
     <div>
-        <form method="POST" action="/links/StudentSignup">
+        <form method="POST" action="/links/UpdateStudent">
             <div class="row mt-4 ml-2">
                 <div class="col">
                     <h6><label>Nombre</label></h6>
-                    <input name="nombre" type="text" class="form-control" placeholder="Nombre" value="{{Student.nombre}}">
+                    <input name="nombre" type="text" class="form-control" value="{{student.nombre}}">
                 </div>
                 <div class="col mr-4">
                     <h6><label>Apellidos</label></h6>
@@ -22,8 +22,8 @@
                 <input name="password" type="text" class="form-control" placeholder="Contraseña nueva" value="{{Student.password}}">
             </div>
             <div class="row mt-3 ml-4">
-                <input type="submit" name="Register" class="btn-hover color-8" value="Registrarme">
-                <button class="btn-hover color-1"><a class=" text-light" href="/links/type">Cancelar</a></button>
+                <input type="submit" name="Update" id="Update"  class="btn-hover color-8" value="Actualizar">
+                <button class="btn-hover color-8"><a class=" text-light" href="/links/PanelEstudiante">Cancelar</a></button>
             </div>
         </form>
     </div>
