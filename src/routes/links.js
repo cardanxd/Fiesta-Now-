@@ -40,6 +40,8 @@ router.post('/DeleteStudent', async(req, res) => {
     }
 })
 
+
+
 router.get('/UpdateStudent', async(req, res) => {
     let student = await Student.GetById(req.session.StudentId);
     res.render('links/UpdateStudent', { student: student });
