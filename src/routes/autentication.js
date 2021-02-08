@@ -14,9 +14,8 @@ async function ExistStudent(account) {
 
     try {
 
-        let url = "https://localhost:5001/api/cuenta/" + account.Correo + "/" + account.Password;
+        let url = global.apiConnection + "/api/cuenta/" + account.Correo + "/" + account.Password;
         const result = await fetch(url, {
-            agent,
             headers: {
                 'Content-Type': 'application/json'
             }
@@ -24,10 +23,9 @@ async function ExistStudent(account) {
         const response = await result.json();
 
         if (response.data.id > 0) {
-            url = "https://localhost:5001/api/estudiante/Accout/" + response.data.id;
+            url = global.apiConnection + "/api/estudiante/Accout/" + response.data.id;
             console.log(url);
             var queryStudent = await fetch(url, {
-                agent,
                 headers: {
                     'Content-Type': 'application/json'
                 }

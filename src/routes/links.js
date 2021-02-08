@@ -3,6 +3,7 @@ const router = express.Router();
 
 const Student = require('./../lib/GestionStudent');
 const Academias = require('./../lib/Academias');
+const Clases = require('../lib/ClassByID');
 
 router.get('/StudentSignup', (req, res) => {
     res.render('links/StudentSignup');
@@ -25,12 +26,6 @@ router.get('/PanelEstudiante', (req, res) => {
     res.render('links/EstudiantePanel');
 })
 
-router.get('/Academias', async(req, res) => {
-    const academias = await Academias.GetAcademias();
-    console.log(academias);
-    res.render('links/AcademiasAll', { academias });
-})
-
 router.get('/DeleteStudent', async(req, res) => {
     let student = await Student.GetById(req.session.StudentId);
     res.render('links/DeleteStudent', { student: student });
@@ -45,8 +40,6 @@ router.post('/DeleteStudent', async(req, res) => {
     }
 })
 
-
-
 router.get('/UpdateStudent', async(req, res) => {
     let student = await Student.GetById(req.session.StudentId);
     res.render('links/UpdateStudent', { student: student });
@@ -58,6 +51,20 @@ router.post('/UpdateStudent', async(req, res) => {
         res.redirect("/links/UpdateStudent");
     else
         res.redirect("/error");
+})
+
+router.get('/Academias', async(req, res) => {
+    const academias = await Academias.GetAcademias();
+    console.log(academias);
+    res.render('links/AcademiasAll', { academias });
+})
+
+router.get('/Clases/:id', async(req, res) => {
+    const { id } = req.params;
+    const clases = await Clases.GetClass(id);
+    res.render('links/ClassByID', { clases });
+    console.log(id)
+    console.log(clases)
 })
 
 module.exports = router;

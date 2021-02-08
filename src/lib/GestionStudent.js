@@ -17,8 +17,7 @@ Student.Add = async function(Student) {
     }
 
     console.log(obj);
-    let response = await fetch("https://localhost:5001/api/estudiante", {
-        agent,
+    let response = await fetch(global.apiConnection + "/api/estudiante", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json'
@@ -39,10 +38,9 @@ Student.GetById = async function(Id) {
 
     try {
 
-        let UrlGet = "https://localhost:5001/api/estudiante" + Id;
+        let UrlGet = global.apiConnection + "/api/estudiante" + Id;
         console.log(UrlGet);
         let response = await fetch(UrlGet, {
-            agent,
             method: "GET"
         })
         let item = await response.json();
@@ -64,10 +62,9 @@ Student.Delete = async function(id) {
 
     try {
 
-        let UrlDelete = "https://localhost:5001/api/estudiante" + id;
+        let UrlDelete = global.apiConnection + "/api/estudiante" + id;
         console.log(UrlDelete);
         let response = await fetch(UrlDelete, {
-            agent,
             method: "DELETE"
         })
 
@@ -95,11 +92,10 @@ Student.Update = async function(Id, Student) {
 
     try {
 
-        let UrlPut = "https://localhost:5001/api/estudiante" + Id;
+        let UrlPut = global.apiConnection + "/api/estudiante" + Id;
         console.log(UrlPut, JSON.stringify(obj));
 
         let response = await fetch(UrlPut, {
-            agent,
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json'

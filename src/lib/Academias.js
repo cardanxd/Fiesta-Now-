@@ -9,7 +9,7 @@ Academias.GetAcademias = async function() {
     });
 
 
-    let result = await fetch("https://localhost:5001/api/academia", { agent })
+    let result = await fetch(global.apiConnection + "/api/academia")
         .then(response => response.json())
         .then(json => json)
 
@@ -25,10 +25,9 @@ Academias.GetAll = async function() {
 
     try {
 
-        let UrlGet = "https://localhost:5001/api/academia/";
+        let UrlGet = global.apiConnection + "/api/academia/";
         console.log(UrlGet);
         let response = await fetch(UrlGet, {
-            agent,
             method: "GET"
         })
         let item = await response.json();
