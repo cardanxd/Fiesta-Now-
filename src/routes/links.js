@@ -65,7 +65,6 @@ router.get('/Clases/:id', async(req, res) => {
     const { id } = req.params;
     const clases = await Clases.GetClass(id);
     res.render('links/ClassByID', { clases });
-    console.log(id)
     console.log(clases)
 })
 
