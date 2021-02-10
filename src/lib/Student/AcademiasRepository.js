@@ -39,4 +39,20 @@ Academias.GetAll = async function() {
     return;
 }
 
+Academias.GetById = async function(id) {
+    const fetch = require("node-fetch")
+    const https = require("https");
+
+    const agent = new https.Agent({
+        rejectUnauthorized: false
+    });
+
+
+    let result = await fetch(global.apiConnection + "/api/academia/" + id)
+        .then(response => response.json())
+        .then(json => json)
+
+    return result.data;
+}
+
 module.exports = Academias;

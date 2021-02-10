@@ -1,0 +1,33 @@
+{{> navStudent}}
+<h1 class="text-light text-center mt-4">Informacion de la academia</h1>
+<div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+        <form method="" action="#">
+
+            <div class="row mt-4">
+                <h6><label>Nombre de la academia</label></h6>
+                <input name="academy" type="text" class="form-control" value="{{academia.nombre}}" disabled>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <h6><label>Contacto</label></h6>
+                    <input name="academy" type="text" class="form-control" value="{{academia.contacto}}" disabled>
+                </div>
+                <div class="col">
+                    <h6><label>Teléfono</label></h6>
+                    <input name="academy" type="text" class="form-control" value="{{academia.numero}}" disabled>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <h6><label>Dirección</label></h6>
+                <input name="academy" type="text" class="form-control" value="{{academia.direction}}" disabled>
+            </div>
+            <div class="row mt-4">
+                <h4 class="mt-2"> Descripción</h4>
+            </div>
+            <div class="row mt-2">
+                <textarea name="descripcion" cols="150" rows="4" disabled>{{academia.descripcion}}</textarea>
+            </div>
+        </form>
+</div>
