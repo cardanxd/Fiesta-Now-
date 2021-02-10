@@ -1,0 +1,48 @@
+{{> navStudent}}
+<h1 class="text-light text-center mt-4">Inscripción</h1>
+<div class="card-body mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div>
+        <form method="POST" action="#">
+            <div class="row mt-4 ml-2">
+                <div class="col">
+                    <h6><label>Nombre del titular</label></h6>
+                    <input name="titular" type="text" class="form-control" placeholder="Como aparece en la tarjeta"
+                        required>
+                </div>
+                <div class="col mr-4">
+                    <h6><label>Número de tarjeta</label></h6>
+                    <input name="tarjeta" type="number" class="form-control" placeholder="" required>
+                </div>
+            </div>
+            <div class="row ml-2 mt-4">
+                <div class="col">
+                    <h6><label>Fecha de expiración</label></h6>
+                </div>
+                <div class="col">
+                    <h6><label>Codigo de seguridad</label></h6>
+                </div>
+            </div>
+            <div class="row mt-2 ml-2">
+                <div class="row ">
+                <div class="col col-lg-4 ml-2">
+                    <input name="mes" type="Number" class="form-control" placeholder="Mes" required>
+                </div>
+                <div class="col col-lg-4 mr-5">
+                    <input name="año" type="number" class="form-control" placeholder="Año" required>
+                </div>
+                
+            </div>
+            <div class="row">
+                <div class="col col-lg-8 ml-5">
+                    <input name="cvv" type="Number" class="form-control" placeholder="3 digitos" required>
+                </div>
+            </div>
+            </div>
+            
+            <div class="row mt-3 ml-4">
+                <input type="submit" name="inscripcion" class="btn-hover color-8" value="Aceptar">
+                <button class="btn-hover color-1"><a class=" text-light" href="/links/Academias">Cancelar</a></button>
+            </div>
+        </form>
+    </div>
+</div>

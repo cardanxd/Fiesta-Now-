@@ -4,6 +4,38 @@ const router = express.Router();
 const Student = require('./../lib/GestionStudent');
 const Academias = require('./../lib/Academias');
 const Clases = require('../lib/ClassByID');
+const Horario = require('./../lib/GestionHorario');
+
+function GenerateHorario(clase) {
+    let newshorarios = new Array();
+
+
+    if (Array.isArray(clase.Inicio)) {
+        let horariosInicio = clase.Inicio;
+        let horariosCierre = clase.Cierre;
+        let Dias = clase.days;
+        let row = 0;
+
+        horariosInicio.forEach(horario => (
+            newshorarios.push({
+                Apertura: "2019-07-26T" + horario,
+                Cierre: "2019-07-26T" + horariosCierre[row],
+                Dia: Dias[row++]
+            })
+        ));
+    } else
+        newshorarios.push({
+            Apertura: "2019-07-26T" + clase.Inicio,
+            Cierre: "2019-07-26T" + clase.Cierre,
+            Dia: clase.days
+        })
+
+
+
+
+    newshorarios.forEach(x => console.log(x));
+    return newshorarios;
+}
 
 router.get('/StudentSignup', (req, res) => {
     res.render('links/StudentSignup');
@@ -61,11 +93,23 @@ router.get('/Academias', async(req, res) => {
     res.render('links/AcademiasAll', { academias });
 })
 
-router.get('/Clases/:id', async(req, res) => {
+/*router.get('/Clases/:id', async(req, res) => {
     const { id } = req.params;
     const clases = await Clases.GetClass(id);
     res.render('links/ClassByID', { clases });
     console.log(clases)
+})*/
+
+router.get('/Clases/:id', async(req, res) => {
+    const { id } = req.params;
+    const panel = await Clases.GetClass(id); //
+    const horarios = await Clases.GetHorario(panel);
+    //console.log(horarios)
+    res.render('links/ClassByID', { horarios: horarios });
+})
+
+router.get('/inscripcion', (req, res) => {
+    res.render('links/Inscripcion');
 })
 
 module.exports = router;
