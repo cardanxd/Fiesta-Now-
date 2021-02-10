@@ -76,7 +76,7 @@ Student.Delete = async function(id) {
     return 0;
 }
 
-Student.Update = async function(Id, Student) {
+Student.Update = async function(Id, student) {
     const fetch = require("node-fetch")
     const https = require("https");
     const agent = new https.Agent({
@@ -85,14 +85,12 @@ Student.Update = async function(Id, Student) {
 
     let obj = {
         Nombre: student.nombre,
-        Apellido: student.apellidos,
-        Correo: student.correo,
-        Password: student.password
+        Apellido: student.apellido
     }
 
     try {
 
-        let UrlPut = global.apiConnection + "/api/estudiante" + Id;
+        let UrlPut = global.apiConnection + "/api/estudiante/" + Id;
         console.log(UrlPut, JSON.stringify(obj));
 
         let response = await fetch(UrlPut, {

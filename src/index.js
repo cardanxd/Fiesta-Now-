@@ -7,8 +7,7 @@ const session = require('express-session')
 
 const app = express();
 
-//require("./lib/passport");
-require("./lib/GestionStudent");
+require('./../src/lib/Student/AcademiasRepository');
 
 //setings
 app.set('port', process.env.PORT || 4000)
@@ -54,10 +53,12 @@ app.use((req, res, next) => {
 
 //Routes
 app.use(require('./routes/'));
-app.use(require('./routes/autentication'));
-app.use('/links', require('./routes/links'));
-
-
+app.use(require('./routes/AutenticationController'));
+app.use('/links', require('./../src/routes/links'));
+app.use('/links', require('./../src/routes/Student/AcademyController'));
+app.use('/links', require('./../src/routes/Student/ClassController'));
+app.use('/links', require('./../src/routes/Student/InscripcionController'));
+app.use('/links', require('./../src/routes/Student/StudentController'));
 
 //public 
 app.use(express.static(path.join(__dirname, 'public')))

@@ -8,7 +8,6 @@ Academias.GetAcademias = async function() {
         rejectUnauthorized: false
     });
 
-
     let result = await fetch(global.apiConnection + "/api/academia")
         .then(response => response.json())
         .then(json => json)

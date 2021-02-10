@@ -49,18 +49,20 @@ router.get('/signin', (req, res) => {
 router.post("/signin", async(req, res) => {
     let redirect = "/links/PanelEstudiante";
     const Student = await ExistStudent(req.body);
-    console.log(Student);
+    console.log("Estudent id:", Student.id);
+
     if (Student)
-        req.session.StudentId = Student.id;
+        req.session.id = Student.id; 
     else {
         req.flash('failLogin', 'No se encontró ninguna cuenta con esos datos registrada, favor de verificar los datos');
         redirect = "/signin";
     }
+
     res.redirect(redirect);
 })
 
 router.get('/logout', (req, res) => {
-    req.session.StudentId = 0;
+    req.session.id = 0;
     res.redirect("/signin");
 
 })

@@ -1,10 +1,7 @@
 const Horario = {};
 
-
-//TODO: eliminar e implementar de l clase horarios
 Horario.ToFormat = function(clase) {
     let newshorarios = new Array();
-
 
     if (Array.isArray(clase.Inicio)) {
         let horariosInicio = clase.Inicio;
