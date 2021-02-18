@@ -5,7 +5,7 @@ document.getElementById("Register").addEventListener("click", function() {
         password: document.getElementById("Password").value
     }
 
-    fetch("https://localhost:5001/api/cuenta", {
+    fetch(global.apiConnection + "/api/cuenta", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
@@ -14,7 +14,7 @@ document.getElementById("Register").addEventListener("click", function() {
         })
         .then(response => response.json())
         .then(json => {
-            console.log(json);
+            // console.log(json);
         });
 
 })

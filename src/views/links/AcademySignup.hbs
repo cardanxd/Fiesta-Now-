@@ -1,0 +1,79 @@
+{{> navigation}}
+
+<head>
+    <link rel="stylesheet" href="/css/RegisterAcademia.css">
+</head>
+
+<div id="map" class="map w-100">
+    <div class="text-right map-nav">
+        <p></p>
+        <small class="">Selecciona la ubicación de tu academia</small>
+        <span id="close" class="fa fa-close mt-1"></span>
+    </div>
+    {{>map}}
+</div>
+
+
+<h1 class="text-light text-center">Registro de la academia</h1>
+<div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div class="card-body">
+        <form method="POST" action="/links/AcademySignup">
+            <div class="row mt-3">
+                <div class="col">
+                    <h6 class="mt-2"> Insertar un logo</h6>
+                    <input type="file" name="logo" required />
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <h6><label>Nombre de la academia</label></h6>
+                <input name="academy" type="text" class="form-control" placeholder="Nombre de la academia" required>
+            </div>
+
+            <div class="row mt-4">
+                <div class="col">
+                    <h6><label>Contacto</label></h6>
+                    <input name="contact" type="text" class="form-control" placeholder="Contacto" required>
+                </div>
+                <div class="col">
+                    <h6><label>Teléfono</label></h6>
+                    <input name="number" type="number" class="form-control" placeholder="Teléfono" required>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <h6><label>Dirección</label></h6>
+                <div class="input-group ">
+                    <input name="direccion" type="text" class="form-control" placeholder="Dirección" required>
+                    <button type="button" id="open-map" class="input-group-text" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"><i class="fa fa-map-marker" aria-hidden="true"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row mt-4">
+                <h6><label>Correo electrónico</label></h6>
+                <input name="correo" type="email" class="form-control" placeholder="Correo electrónico" required>
+            </div>
+
+            <div class="row mt-4">
+                <h6><label>Contraseña nueva</label></h6>
+                <input name="password" type="password" class="form-control" placeholder="Contraseña nueva" required>
+            </div>
+            <div class="row mt-4">
+                <h4 class="mt-2"> Descripción</h4>
+                <input type="text" id="lat" name= "lat"class="">
+                <input type="text" id="lng" name="lng"class="">
+            </div>
+            <div class="row mt-2">
+                <textarea name="descripcion" cols="150" rows="4" required></textarea>
+            </div>
+
+            <div class="row mt-3">
+                <input type="submit" name="Register" class="btn btn-success" value="Siguiente" required>
+                <a class="btn btn-info text-light ml-4" href="/signin">Cancelar</a>
+            </div>
+        </form>
+    </div>
+    <script src="/js/AcademiaRegister.js"></script>
+</div>

@@ -8,11 +8,6 @@ body{
     background: #f08621;
 }
 
-h4 {
-    line-height: 22px;
-    font-size: 18px;
-}
-
 .contenedor {
     margin: 2rem auto;
     border: 1px solid #aaa;
@@ -91,7 +86,6 @@ h4 {
     background-size: 300% 100%;
 
     border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -99,7 +93,6 @@ h4 {
 
 .btn-hover:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
@@ -121,6 +114,13 @@ h4 {
     margin-bottom: 30px;
     background-color: #fff;
     box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.568);
+    transition: 0.4s;
+}
+
+.card-box:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 5px 5px 30px 15px rgba(0, 0, 0, 0.25), -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+    background-color: #00B4CC;
 }
 
 .social-links li a {
@@ -187,4 +187,11 @@ h4 {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+}
+
+.alert-delte{
+    position: fixed;
+    margin: 250px;
+    
+    z-index: 10;
 }

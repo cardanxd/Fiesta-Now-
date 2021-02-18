@@ -1,38 +1,35 @@
 {{#if success}}
-  <div class="row">
-    <div class="col-md mx-auto">
-      <div class="alert alert-secces alert-dismissible fade show">
-        {{succes}}
-        <button
-          type="button"
-          class="close"
-          data-dismis="alert"
-          aria-label="Close"
-        >
-          <samp aria-hidden="true">
-            ×
-          </samp>
-        </button>
-      </div>
+<div class="row">
+  <div class="col-md mx-auto">
+    <div class="alert alert-secces alert-dismissible fade show">
+      {{succes}}
+      <button type="button" class="close" data-dismis="alert" aria-label="Close">
+        <samp aria-hidden="true">
+          ×
+        </samp>
+      </button>
     </div>
   </div>
+</div>
 {{/if}}
+
+
 {{#if failLogin}}
-  <div class="row">
-    <div class="col-md mx-auto">
-      <div class="alert alert-danger" role="alert">
-        <button
-          type="button"
-          class="close"
-          data-dismiss="alert"
-          aria-label="Close"
-        >
-          <span aria-hidden="true">
-            ×
-          </span>
-        </button>
-        {{failLogin}}
-      </div>
+<div class="row">
+  <div class="col-md mx-auto">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      {{failLogin}}
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
   </div>
+</div>
+{{/if}}
+
+{{#if error}}
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  {{error}}
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
 {{/if}}

@@ -1,0 +1,92 @@
+{{> navAcademy}}
+<section>
+  <h1 class="text-light text-center mt-4">
+    Actualizar datos de la Academia
+  </h1>
+  <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div class="card-body">
+      <form method="POST" action="/links/UpdateAcademy">
+        <div class="row mt-4 ml-4 mr-4">
+          <h6>
+            <label>
+              Nombre de la academia
+            </label>
+          </h6>
+          <input
+            name="nombre"
+            type="text"
+            class="form-control"
+            placeholder="Nombre de la academia"
+            value="{{academy.nombre}}"
+              required
+          />
+        </div>
+        <div class="row mt-4 ml-2">
+          <div class="col">
+            <h6>
+              <label>
+                Contacto
+              </label>
+            </h6>
+            <input
+              name="contact"
+              type="text"
+              class="form-control"
+              placeholder="Contacto"
+              value="Contacto"
+                required
+            />
+          </div>
+          <div class="col mr-4">
+            <h6>
+              <label>
+                Teléfono
+              </label>
+            </h6>
+            <input
+              name="numero"
+              type="text"
+              class="form-control"
+              placeholder="Teléfono"
+              value="{{academy.numero}}"
+                required
+            />
+          </div>
+        </div>
+        <div class="row mt-4 ml-4 mr-4">
+          <h6>
+            <label>
+              Dirección
+            </label>
+          </h6>
+          <input
+            name="direction"
+            type="text"
+            class="form-control"
+            placeholder="Dirección"
+            value="{{academy.direction}}"
+              required
+          />
+        </div>
+        <div class="row mt-4 ml-4">
+          <h4 class="mt-2">
+            Descripción
+          </h4>
+        </div>
+        <div class="row mt-2 ml-4 mr-4">
+          <textarea name="descripcion" cols="150" rows="4" required>{{academy.descripcion}}</textarea>
+        </div>
+        <div class="row mt-3 ml-4">
+          <input
+            type="submit"
+            id="Update"
+            class="btn-hover btn btn-success"
+            value="Actualizar"
+              required
+          />
+          <a class="btn btn-info text-light ml-4" href="/links/PanelAcademia">Cancelar</a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

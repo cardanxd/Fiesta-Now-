@@ -1,0 +1,59 @@
+
+
+{{> navAcademy}}
+
+<div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+        <div class="card-body min-vh-100">
+            <form action="/links/add" method="POST">
+                <div class="row mt-3">
+                    <div class="col">
+                        <label>Aula</label>
+                        <input type="text" class="form-control" id="aula" name="aula" placeholder="Nombre del aula">
+                    </div>
+                    <div class="col">
+                        <label>Alumnos maximos</label>
+                        <input type="number" min="1" id="alumnos" name="alumnos" class="form-control" placeholder="Numero de alumnos">
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="inputAddress">Tipo</label>
+                    <select class="form-control" name="Tipos" id="Tipo">
+                        <option value=1 > Ballet</option>
+                        <option value=2 > Zumba</option>
+                        <option value=3 > Salsa</option>
+                        <option value=4 > Cumbia</option>
+                      </select>
+                </div>
+                <h4 class="mt-3 ml-2"> Horarios:</h4>
+                <div class="card">
+                    <div class="card-body" style="min-height: 400px;">
+                        <table class="table">
+                            <thead style="background: #f7f14a;">
+                                <tr>
+                                    <th scope="col">
+                                        <button type="button" id="add-horario" class="btn btn-success btn-sm" value="+">
+                                        <span class="glyphicon glyphicon-plus">+</span>
+                                        </button>
+                                    </th>
+                                    <th scope="col">Día</th>
+                                    <th scope="col">Hora de inicio</th>
+                                    <th scope="col">Hora de finalización</th>
+                                </tr>
+                            </thead>
+                            <tbody id="class">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <input type="submit" id="guardar" class="form-control btn btn-success" value="Guardar">
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="form-control btn btn-danger" value="Cancelar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/addclass.js"></script>

@@ -1,28 +1,14 @@
-document.getElementById("Register").addEventListener("click", function() {
-
-    let obj = {
-        Nombre: academiname.value,
-        Numero: number.value,
-        Correo: correo.value,
-        Password: "fake",
-        Descripcion: "Esta es una Academia falsa",
-        Direction: direction.value,
-        Longitud: 1992321512.42563,
-        Latitud: 198728745872.123857129,
-        Logo: photo.value,
-        Rol: 1
-    }
-
-    fetch("https://localhost:5001/api/academia", {
-            method: "POST",
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(obj)
-        })
-        .then(response => response.json())
-        .then(json => {
-            location.href = "./Login.html"
-        });
-
+document.getElementById('open-map').addEventListener('click', () => {
+    document.getElementById('map').style.display = "block";
+    openMap();
 })
+
+
+document.getElementById('close').addEventListener('click', () => {
+    document.getElementById('map').style.display = "none";
+})
+
+function setCoords(lat, lng) {
+    document.getElementById('lat').value = lat;
+    document.getElementById('lng').value = lng;
+}

@@ -1,5 +1,10 @@
 var BoxSearch = document.getElementById("Search")
 
+var bootstrapModal = new bootstrap.Modal(document.getElementById('staticBackdrop'), {
+    keyboard: false
+})
+
+
 
 //BoxSearch.addEventListener("keyup", SearchTargets());
 
@@ -21,3 +26,8 @@ function SearchTargets() {
     }
 }
 
+function deleteClass(id) {
+    const del = document.getElementById("btn-delte");
+    del.setAttribute("href", "http://getdancenow.somee.com/api/clase/delete/" + id);
+    bootstrapModal.show();
+}

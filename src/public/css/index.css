@@ -1,0 +1,119 @@
+/*Navigation*/
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: white;
+}
+
+.nav {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    background: #333333;
+    height: 67px;
+    opacity: 0.9;
+    z-index: 2;
+}
+
+.nav a {
+    padding-left: 20px;
+}
+
+.option {
+    flex: 1;
+    justify-content: right;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
+.option a {
+    width: 130px;
+    text-align: center;
+    height: 100%;
+    padding-top: 20px;
+    padding-left: 0px;
+    background: black;
+    color: white;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.option a:hover {
+    transition: 0.2m;
+    background: white;
+    color: black;
+}
+
+
+/*slider*/
+
+.text-image {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    position: absolute;
+    margin-top: 300px;
+    padding-left: 260px;
+    font-size: 60px;
+    z-index: 1;
+    font-family: 'Redressed', cursive;
+    background: rgba(237, 237, 255, 0.548)
+}
+
+.my-element {
+    --animate-duration: 9s;
+}
+
+
+/*mision vision*/
+
+.valores {
+    display: grid;
+    margin: 150px 210px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+}
+
+.valores h3 {
+    color: green;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.valores p {
+    text-align: justify;
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+}
+
+
+/*info*/
+
+.info {
+    height: 500px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 30px;
+    background: #f08621;
+}
+
+.info h1 {
+    text-align: center;
+    margin: 40px auto;
+    color: green;
+}
+
+.info p {
+    color: black;
+    margin: auto 210px;
+}

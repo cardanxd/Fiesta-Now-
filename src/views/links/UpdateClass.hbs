@@ -1,0 +1,116 @@
+<head>
+    <link rel="stylesheet" href="/css/panel.css">
+</head>
+
+{{> navAcademy}}
+
+<div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+        <div class="card-body min-vh-100">
+            <form action="/links/UpdateClass/{{id}}" method="POST">
+                {{>Messages}}
+                <div class="row mt-3">
+                    <div class="col">
+                        <label>Aula</label>
+                        <input type="text" class="form-control" id="aula" name="aula" placeholder="Nombre del aula" value="{{class.clase.nombre}}">
+                    </div>
+                    <div class="col">
+                        <label>Alumnos maximos</label>
+                        <input type="number" min="1" id="alumnos" name="alumnos" class="form-control" placeholder="Numero de alumnos" value="{{class.clase.alumnosMax}}">
+                    </div>
+                </div>
+                <div class="form-group mt-3">
+                    <label for="inputAddress">Tipo</label>
+                    <select class="form-control" name="Tipos" id="Tipo" value="{{class.clase.codigoBaileID}}">
+                        <option value=1 > Ballet</option>
+                        <option value=2 > Zumba</option>
+                        <option value=3 > Salsa</option>
+                        <option value=4 > Cumbia</option>
+                      </select>
+                </div>
+                <h4 class="mt-3 ml-2"> Horarios:</h4>
+                <div class="card">
+                    <div class="card-body" style="min-height: 400px;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                        <table class="table">
+                            <thead style="background: #f7f14a;">
+                                <tr>
+                                    <th scope="col">
+                                        <button type="button" id="add-horario" class="btn btn-success btn-sm" value="+">
+                                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                                        </button>
+                                    </th>
+                                    <th scope="col">Día</th>
+                                    <th scope="col">Hora de inicio</th>
+                                    <th scope="col">Hora de finalización</th>
+                                </tr>
+                            </thead>
+                            <tbody id="class">
+                                {{#each class.horarios}}
+                                    <tr name='row' id='row-{{id}}'>
+                                        <th scope='row'>
+                                                <button type='button' name='rmv-class' class='btn btn-success btn-sm' onclick="RemoveClass('row-{{id}}')"> 
+                                                    <i class="fa fa-ban" aria-hidden="true"></i>
+                                                </button> 
+                                        </th> 
+                                        <td>
+                                        <select name='Updatedays' id='day-row-{{id}}' required>
+                                            <option value="Lunes" >Lunes</option>
+                                            <option value="Martes" >Martes</option>
+                                            <option value="Miercoles" >Miercoles</option>
+                                            <option value="Jueves" >Jueves</option>
+                                            <option value="Viernes" >Viernes</option>
+                                            <option value="Sabado" >Sabado</option>
+                                            <option value="Domingo" >Domingo</option>
+                                        </select>
+                                        </td>
+                                        <td><input type='time' name='UpdateInicio' id='Inicio-row-{{id}}' required></td>
+                                        <td><input type='time' name='UpdateCierre' id='Cierre-row-{{id}}' required></td>
+                                        <td><input type='text' name='Updateid' id='id-row-{{id}}'  value='{{id}}' style="display: none;" hidden disabled</td>
+                                        <script>
+                                            var apertura = new Date('{{apertura}}');
+                                            var cierre = new Date('{{cierre}}');
+                                            document.querySelector('#day-row-{{id}}').value = '{{dia}}';
+                                            document.querySelector('#Inicio-row-{{id}}').value = apertura.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false })
+                                            document.querySelector('#Cierre-row-{{id}}').value = cierre.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: false })
+                                            // console.log('{{apertura}} : {{cierre}}');
+                                        </script>
+                                    </tr>
+                                {{/each}}
+                            </tbody>
+                        </table>
+                        </li>
+                        <li class="list-group-item text-center">
+                            <h3>Horarios a eliminar</h3>
+                        </li>
+                        <li class="list-group-item">
+                        <table class="table">
+                            <thead style="background: #ff4949;">
+                                <tr>
+                                    <th scope="col">
+                                    </th>
+                                    <th scope="col">Día</th>
+                                    <th scope="col">Hora de inicio</th>
+                                    <th scope="col">Hora de finalización</th>
+                                </tr>
+                            </thead>
+                            <tbody id="trash">
+                                
+                            </tbody>
+                        </table>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col">
+                        <input type="submit" id="guardar" class="form-control btn btn-success" value="Guardar">
+                    </div>
+                    <div class="col">
+                        <input type="submit" class="form-control btn btn-danger" value="Cancelar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/js/UpdateClass.js"></script>
