@@ -58,7 +58,7 @@ namespace Iterface
             {
                 options.Filters.Add<GlobalExceptionFilter>();
             });
-
+    
             services.AddScoped(typeof(IRepository<>), typeof(SQLRepository<>));
             services.AddTransient<IAcademiaServices, AcademiaServices>();
             services.AddTransient<IEstudianteServices, EstudianteServices>();

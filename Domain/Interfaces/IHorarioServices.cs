@@ -11,5 +11,6 @@ namespace Domain.Interfaces
         IEnumerable<Horario> GetHorario();
         Task UpdateHorario(Horario horarios);
         Task<Horario> GetById(int id);
+        Task DeleteHorario(int id);
     }
 }

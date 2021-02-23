@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
+      "projectUniqueName": "d:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
+      "projectPath": "d:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\obj\\",
+      "outputPath": "d:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }

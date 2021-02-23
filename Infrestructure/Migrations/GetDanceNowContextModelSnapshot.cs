@@ -19,28 +19,6 @@ namespace Infrestructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Domain.Entities.CodigoBaile_Academia", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AcademiaId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("CodigoBaileId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("AcademiaId");
-
-                    b.HasIndex("CodigoBaileId");
-
-                    b.ToTable("CodigoBailes_Academias");
-                });
-
             modelBuilder.Entity("Entity.Academia", b =>
                 {
                     b.Property<int>("Id")
@@ -139,6 +117,9 @@ namespace Infrestructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("AcademiaId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
@@ -146,6 +127,8 @@ namespace Infrestructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AcademiaId");
 
                     b.ToTable("CodigoBailes");
                 });
@@ -249,21 +232,6 @@ namespace Infrestructure.Migrations
                     b.ToTable("Suscripcions");
                 });
 
-            modelBuilder.Entity("Domain.Entities.CodigoBaile_Academia", b =>
-                {
-                    b.HasOne("Entity.Academia", "Academia")
-                        .WithMany("CodigoBailes")
-                        .HasForeignKey("AcademiaId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Entity.CodigoBaile", "CodigoBaile")
-                        .WithMany()
-                        .HasForeignKey("CodigoBaileId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("Entity.Academia", b =>
                 {
                     b.HasOne("Entity.Cuenta", "cuenta")
@@ -301,6 +269,13 @@ namespace Infrestructure.Migrations
                         .HasForeignKey("SuscripcionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Entity.CodigoBaile", b =>
+                {
+                    b.HasOne("Entity.Academia", null)
+                        .WithMany("CodigoBailes")
+                        .HasForeignKey("AcademiaId");
                 });
 
             modelBuilder.Entity("Entity.Estudiante", b =>

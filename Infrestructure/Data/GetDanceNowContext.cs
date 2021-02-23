@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using Domain.Entities;
 using Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
@@ -34,7 +33,6 @@ namespace Infrestructure.Data
 
         DbSet<Academia> Academias { get; }
         DbSet<Clase_Suscripciones> Clases_Suscripciones { get; }
-        DbSet<CodigoBaile_Academia> CodigoBailes_Academias { get; }
         DbSet<Clase> Clases { get; }
         DbSet<CodigoBaile> CodigoBailes { get; }
         DbSet<Cuenta> Cuentas { get; }

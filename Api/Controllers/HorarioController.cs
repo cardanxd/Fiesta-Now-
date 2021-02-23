@@ -78,5 +78,13 @@ namespace Api.Controllers
             await _service.UpdateHorario(update);
             return Ok();
         }
+
+        [HttpDelete("{id:int}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _service.DeleteHorario(id);
+            return Ok();
+        }
+
     }
 }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Entity
 {
@@ -10,6 +8,8 @@ namespace Entity
         public DateTime Inicio { get; set; }
         public DateTime Vencimiento { get; set; }
         public string Detalles { get; set; }
+        public int EstudianteId { get; set; }
+        public Estudiante Estudiante { get; set; }
 
     }
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.json
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -79,7 +80,6 @@
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
-<<<<<<< HEAD
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/appsettings.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
@@ -162,244 +162,247 @@
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/Debug/netcoreapp3.1/Api.pdb
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
 =======
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/appsettings.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.0.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.1.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.exe
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.deps.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.runtimeconfig.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.runtimeconfig.dev.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Api.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/AutoMapper.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/FluentValidation.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Application.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Domain.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Infrestructure.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Infrestructure.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Application.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.AssemblyInfoInputs.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.AssemblyInfo.cs
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.MvcApplicationPartsAssemblyInfo.cs
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.MvcApplicationPartsAssemblyInfo.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.RazorTargetAssemblyInfo.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.csproj.CopyComplete
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.Manifest.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.xml
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
 >>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\appsettings.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.0.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.1.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.exe
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.deps.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.dev.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Api.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Application.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Domain.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Application.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.RazorTargetAssemblyInfo.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.csproj.CopyComplete
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.Manifest.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.xml
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\appsettings.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.0.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.1.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.exe
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.deps.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.dev.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Application.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Domain.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Application.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.RazorTargetAssemblyInfo.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csproj.CopyComplete
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.Manifest.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.xml
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.0.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.1.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.exe
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.deps.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.dev.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Api.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Application.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Application.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cs
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.Manifest.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.xml
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Api.styles.css
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.RazorTargetAssemblyInfo.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.csproj.CopyComplete
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
+>>>>>>> 41a9133... add server dbstring
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/appsettings.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.0.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/mono_crash.21acb2abea.1.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api.deps.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api.runtimeconfig.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api.runtimeconfig.dev.json
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Api.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/FluentValidation.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/FluentValidation.AspNetCore.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/FluentValidation.DependencyInjectionExtensions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.AsyncInterfaces.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Bcl.HashCode.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.SqlServer.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.FileExtensions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Json.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileProviders.Physical.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.FileSystemGlobbing.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.Identity.Client.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Logging.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.Configuration.ConfigurationManager.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.Runtime.Caching.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/System.Security.Cryptography.ProtectedData.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/sni.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/sni.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/sni.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Application.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Infrestructure.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Infrestructure.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Application.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Api/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.AssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.csproj.CoreCompileInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.MvcApplicationPartsAssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.MvcApplicationPartsAssemblyInfo.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.Manifest.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/staticwebassets/Api.StaticWebAssets.xml
+>>>>>>> c9166ba... changes dto
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.RazorTargetAssemblyInfo.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.csproj.CopyComplete
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Api/obj/Debug/netcoreapp3.1/Api.genruntimeconfig.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.0.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\mono_crash.21acb2abea.1.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.exe
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.deps.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.runtimeconfig.dev.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Api.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Application.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Infrestructure.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Infrestructure.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Application.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.csprojAssemblyReference.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfoInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.AssemblyInfo.cs
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.csproj.CoreCompileInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.Manifest.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\staticwebassets\Api.StaticWebAssets.xml
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\scopedcss\bundle\Api.styles.css
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.RazorTargetAssemblyInfo.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.csproj.CopyComplete
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache

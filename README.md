@@ -11,3 +11,7 @@ encontraras eventos cerca de ti y compartir tu opinión acerca de él.
 Realiza registro y pago en linea  para no dejar de disfrutar de lo que mas te gusta hacer.
 </p>
 <h6>
+  
+# visita nuestra pagina web
+  
+  https://getdancenow.herokuapp.com/

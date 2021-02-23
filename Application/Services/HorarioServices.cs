@@ -20,11 +20,6 @@ namespace Application.Services
             await _unitOfWork.SaveChangesAsync();
         }
 
-        public async Task UpdateHorario(Horario horarios){
-            _unitOfWork.HorariosRepository.Update(horarios);
-            await _unitOfWork.SaveChangesAsync();
-        }
-
         public IEnumerable<Horario> GetHorario()
         {
             return _unitOfWork.HorariosRepository.GetAll();
@@ -35,5 +30,15 @@ namespace Application.Services
             return await _unitOfWork.HorariosRepository.GetById(id);
         }
 
+        public async Task DeleteHorario(int id)
+        {
+            await _unitOfWork.HorariosRepository.Delete(id);
+            await _unitOfWork.SaveChangesAsync();
+        }
+
+        public Task UpdateHorario(Horario horarios)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

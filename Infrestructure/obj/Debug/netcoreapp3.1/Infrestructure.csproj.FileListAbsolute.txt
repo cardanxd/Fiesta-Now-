@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.deps.json
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.json
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.dev.json
@@ -13,7 +14,6 @@
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Domain.dll
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Domain.pdb
 /home/hhhh/Documentos/Backups/Files/Tareas/AWOS/GetDanceNow/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CopyComplete
-<<<<<<< HEAD
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.deps.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.json
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.dev.json
@@ -30,49 +30,50 @@
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.pdb
 /home/hhhh/Documentos/Fiesta-Now-/GetDanceNow/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.genruntimeconfig.cache
 =======
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.deps.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.dev.json
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Domain.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/bin/Debug/netcoreapp3.1/Domain.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csprojAssemblyReference.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfoInputs.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfo.cs
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CoreCompileInputs.cache
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CopyComplete
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.dll
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.pdb
+D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuentas/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.genruntimeconfig.cache
 >>>>>>> 1352e04b76948d38b3aa76c7bb29f5e3a02b23e1
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.deps.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.dev.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Domain.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfoInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CoreCompileInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CopyComplete
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.genruntimeconfig.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionCuentas\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csprojAssemblyReference.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.deps.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.dev.json
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Domain.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csprojAssemblyReference.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfoInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfo.cs
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CoreCompileInputs.cache
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CopyComplete
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.dll
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\carlo\Documents\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.genruntimeconfig.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.deps.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.dev.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csprojAssemblyReference.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfoInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfo.cs
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CoreCompileInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CopyComplete
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\GestionAlumnos\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.genruntimeconfig.cache
+>>>>>>> 41a9133... add server dbstring
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.deps.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.runtimeconfig.dev.json
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Infrestructure.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.AssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CoreCompileInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.csproj.CopyComplete
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.dll
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.pdb
+/home/hhhh/Documentos/Fiesta-Now-api/Infrestructure/obj/Debug/netcoreapp3.1/Infrestructure.genruntimeconfig.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.deps.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.runtimeconfig.dev.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Infrestructure.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csprojAssemblyReference.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfoInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.AssemblyInfo.cs
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CoreCompileInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.csproj.CopyComplete
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Infrestructure\obj\Debug\netcoreapp3.1\Infrestructure.genruntimeconfig.cache

@@ -41,16 +41,8 @@ namespace Infrestructure.Mappings
             CreateMap<CuentaRequestDto, Cuenta>();
 
             CreateMap<Horario,HorarioRequestDto>();
-            CreateMap<Horario,HorarioResponseDto>()
-            .AfterMap((source,destination) => {
-                destination.Apertura = 
-                source.Apertura.Hour.ToString() +":"+
-                source.Apertura.Minute.ToString();
-
-                destination.Cierre =
-                source.Cierre.Hour.ToString() +":"+
-                source.Cierre.Minute.ToString();
-            });
+            CreateMap<Horario,HorarioResponseDto>();
+            
 
             CreateMap<HorarioRequestDto,Horario>();
 
@@ -61,6 +53,9 @@ namespace Infrestructure.Mappings
                 destination.Horarios = $"https://localhost:5001/api/horario/{source.Id}";
             });
             
+            CreateMap<Suscripcion,SuscripcionRequestDto>();
+            CreateMap<Suscripcion,SuscripcionResponseDto>();
+            CreateMap<SuscripcionRequestDto, Suscripcion>();
         }
     }
 }

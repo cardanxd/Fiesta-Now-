@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J5BTv85dFvPMmS58+nKQUD+g8UzBRBkKM0ryU6l/ePUirUAFp8kZy3umbcTaVQnGhDk6Cf17fSJeuoVvy5+v6g==",
+  "dgSpecHash": "vIsw4wH0MDP0wQ7d88iOceasG5eAZhYpHLQHZpyPtJbDZ6+afcVJ34aZ35NoXbuqAQPVNislIv5E2+etnZgzMA==",
   "success": true,
-  "projectFilePath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
+  "projectFilePath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",

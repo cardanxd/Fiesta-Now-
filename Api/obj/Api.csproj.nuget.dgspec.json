@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj": {}
+    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\Api.csproj": {}
   },
   "projects": {
-    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj": {
+    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
+        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\Api.csproj",
+        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Api\\obj\\",
+        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\Application.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\Application.csproj"
               },
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj"
               },
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj"
               }
             }
           }
@@ -97,18 +97,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj": {
+    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\Application.csproj",
+        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Application\\obj\\",
+        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,11 +125,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj"
               },
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj"
               }
             }
           }
@@ -164,18 +164,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
+    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\obj\\",
+        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -218,18 +218,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj": {
+    "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
+        "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj",
         "projectName": "Infrestructure",
-        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\Infrestructure.csproj",
+        "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\Infrestructure.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Infrestructure\\obj\\",
+        "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Infrestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -246,8 +246,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\GestionAlumnos\\Domain\\Domain.csproj"
+              "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj"
               }
             }
           }
@@ -294,7 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

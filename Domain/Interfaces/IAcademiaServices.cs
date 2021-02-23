@@ -9,7 +9,6 @@ namespace Domain.Interfaces
          IEnumerable<Academia> GetAcademias(); 
          Task UpdateAcademia(Academia academia);
          Task AddAcademia(Academia academia);
-         Task DeleteAcademy(int id);
-         Task<Academia> GetById(int id);
+        Task DeleteAcademy(int id);
     }
 }
