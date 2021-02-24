@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Jc3HP7Fmgu+Ag4tQQk6bYkveyXVsvwosG3hFk/5m5kegmn39rW6iBmIc3WUyC8MLeRONz8Clc7tdMui/Fkz2JQ==",
+  "dgSpecHash": "RJAncSSBTdiLTUnEh7kjArOe+jqZ74B8MRMgFc90XKYlt28T8EzYsM+f3O5Ba7bYc9kVcGd2N8P24J04w1AUSg==",
   "success": true,
-  "projectFilePath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\Fiesta-Now--master\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\API\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

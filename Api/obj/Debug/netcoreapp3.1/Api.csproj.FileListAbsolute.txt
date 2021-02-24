@@ -406,3 +406,5 @@ D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fi
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.dll
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.pdb
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Api\obj\Debug\netcoreapp3.1\Api.genruntimeconfig.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Api\obj\Debug\netcoreapp3.1\Api.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Api\obj\Debug\netcoreapp3.1\Api.pdb

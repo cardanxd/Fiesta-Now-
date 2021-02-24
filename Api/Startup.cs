@@ -65,6 +65,7 @@ namespace Iterface
             services.AddTransient<ICuentaServices, CuentaServices>();
             services.AddTransient<IHorarioServices, HorarioServices>();
             services.AddTransient<IClaseServices, ClasesServices>();
+            services.AddTransient<ISuscripcionServices, SuscripcionServices>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddDbContext<GetDanceNowContext>(options =>
            {

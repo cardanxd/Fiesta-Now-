@@ -47,3 +47,12 @@ D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fi
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.dll
 D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
