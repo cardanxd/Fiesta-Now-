@@ -11,10 +11,10 @@ Panel.GetHorario = async function GetHorarios(result, format = true) {
 
         date.apertura = formatApertura.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
         date.cierre = formatCierre.toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true });
-        
-    	return date;
+
+        return date;
     }
-    
+
 
     //obtine todos los horarios de las clases en result y las gurada en un array
     for (let i = 0; i < result.length; i++) {
@@ -22,7 +22,7 @@ Panel.GetHorario = async function GetHorarios(result, format = true) {
         let data = await response.json();
         horarios.push({
             clase: result[i],
-            horarios: format? data.data.map(format12Hours) : data.data
+            horarios: format ? data.data.map(format12Hours) : data.data
         })
     }
 

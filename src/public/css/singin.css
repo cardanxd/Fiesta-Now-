@@ -1,0 +1,65 @@
+.cover-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-size: cover;
+}
+
+.contrast {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+    background-size: cover;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.login {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0);
+    border-radius: 30px 30px 0 0;
+    min-height: 70px;
+    width: 30%;
+    background: #57b846;
+    z-index: 10;
+    color: white;
+}
+
+.body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.514), 0 6px 20px 0 rgba(0, 0, 0, 0.562);
+    margin: auto;
+    margin-top: -30px;
+    border-radius: 0px 0px 30px 30px;
+    background: white;
+    min-height: 400px;
+    width: 30%;
+    background: rgba(255, 255, 255, 0.973);
+    z-index: 10;
+}
+
+.box {
+    background: #ebebeb;
+    border-radius: 15px;
+}
+
+.btn-costum {
+    border-radius: 15px;
+    max-width: 140px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.a-btn {
+    text-decoration: none;
+}

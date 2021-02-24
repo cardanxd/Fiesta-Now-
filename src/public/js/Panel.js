@@ -28,6 +28,6 @@ function SearchTargets() {
 
 function deleteClass(id) {
     const del = document.getElementById("btn-delte");
-    del.setAttribute("href", "http://getdancenow.somee.com/api/clase/delete/" + id);
+    del.setAttribute("href", "/links/DeleteClass/" + id);
     bootstrapModal.show();
 }

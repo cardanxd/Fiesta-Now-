@@ -50,4 +50,10 @@ router.get('/ClassInfo/:id', async(req, res) => {
     res.render('links/ClassInfo', { clase: clase });
 })
 
+router.get("/DeleteClass/:id", async(req, res) => {
+    const { id } = req.params;
+    await Clases.Delete(id);
+    res.redirect("/links/PanelAcademia");
+})
+
 module.exports = router;

@@ -8,6 +8,7 @@
 
         <!-- Cards Container -->
         <div class="card">
+            <!-- Search-->
             <div class="card-body">
                 <div class="row mt-4">
                     <div class="search mx-auto">
@@ -18,14 +19,15 @@
                         </button>
                     </div>
                 </div>
+            <!-- Search-->
 
-
+            <!-- cards class-->
                 <div class="row mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-2">
                     {{#each horarios}}
                     <div class="col-lg-4" name="Target">
                         <div class="text-center card-box">
                             <div class="member-card pt-2 pb-2">
-                                <div class="">
+                                <div class="card-header">
                                     <h4>{{clase.nombre}}</h4>
                                 </div>
                                 <ul class="social-links list-inline">
@@ -38,8 +40,8 @@
                                     </li>
                                 </ul>
                                 <h6 class="mt-4">Horario de la semana</h6>
-                                <div id='horario' class='contenedor'>
-                                    <div class="card-body">
+                                <div id='horario' class='contenedor w-100'>
+                                    <div class="card-body ">
                                         {{#each horarios}}
                                         <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
                                         {{/each}}
@@ -55,13 +57,11 @@
                     </div>
                     {{/each}}
                 </div>
+
+                <!-- cards class-->
             </div>
         </div>
-        <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
-
+    <!-- Cards Container -->
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">

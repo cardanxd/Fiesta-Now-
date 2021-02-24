@@ -44,7 +44,7 @@ Academy.Add = async function(Academy) {
 
 }
 
-Academy.GetById = async function(id) {
+Academy.Delete = async function(id) {
     const fetch = require("node-fetch")
     try {
 
@@ -64,22 +64,19 @@ Academy.GetById = async function(id) {
 }
 
 Academy.GetById = async function(Id) {
-    const fetch = require("node-fetch");
+    const fetch = require("node-fetch")
+    const https = require("https");
 
-    try {
-        let UrlGet = global.apiConnection + "/api/academia/" + Id;
-        // console.log(UrlGet);
-        let response = await fetch(UrlGet, {
-            method: "GET"
-        })
+    const agent = new https.Agent({
+        rejectUnauthorized: false
+    });
 
-        // console.log(item);
 
-        return item.data;
-    } catch (e) {
-        // console.log("Error", "color:red");
-    }
-    return 0;
+    let result = await fetch(global.apiConnection + "/api/academia/" + Id)
+        .then(response => response.json())
+        .then(json => json)
+
+    return result.data;
 }
 
 Academy.Update = async function(Id, academy) {

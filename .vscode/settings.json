@@ -1,0 +1,7 @@
+{
+    "ponicode.testSettings.testLocation.locationType": "In folder __tests__ at worspace root",
+    "ponicode.testSettings.testLocation.path": "{rootDir}/__tests__/{filePath}/{fileName}.test.{ext}",
+    "webview.experimental.useExternalEndpoint": true,
+    "ponicode.nodePath": "/home/hhhh/Documentos/Fiesta-Now-/Nodejs-GetDanceNow/node_modules",
+    "ponicode.watchMode": true
+}

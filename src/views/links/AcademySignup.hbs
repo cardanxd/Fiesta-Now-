@@ -62,16 +62,20 @@
             </div>
             <div class="row mt-4">
                 <h4 class="mt-2"> Descripción</h4>
-                <input type="text" id="lat" name= "lat"class="">
-                <input type="text" id="lng" name="lng"class="">
+                <input type="text" id="lat" hidden name= "lat"class="">
+                <input type="text" id="lng" hidden name="lng"class="">
             </div>
             <div class="row mt-2">
                 <textarea name="descripcion" cols="150" rows="4" required></textarea>
             </div>
 
-            <div class="row mt-3">
-                <input type="submit" name="Register" class="btn btn-success" value="Siguiente" required>
-                <a class="btn btn-info text-light ml-4" href="/signin">Cancelar</a>
+            <div class="row mt-3 mx-auto">
+                <div class="col ml-5" style="margin-left: 170px;">
+                    <input type="submit" name="Register" class="ml-5 btn btn-success w-50" value="Siguiente" required>
+                </div>
+                <div class="col ml-5">
+                    <a class="ml-5 btn btn-info text-light ml-4 w-50" href="/signin">Cancelar</a>
+                </div>
             </div>
         </form>
     </div>

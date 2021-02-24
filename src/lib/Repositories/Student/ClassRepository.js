@@ -1,5 +1,6 @@
 const Clases = {}
 
+
 Clases.GetClassAll = async function() {
     const fetch = require("node-fetch")
     const https = require("https");
@@ -84,6 +85,22 @@ Clases.GetAcademias = async function() {
         .then(json => json)
 
     return result.data;
+}
+Clases.Delete = async function(id) {
+    const fetch = require("node-fetch")
+    try {
+        let UrlDelete = global.apiConnection + "/api/clase/" + id;
+        // console.log(UrlDelete);
+        let response = await fetch(UrlDelete, {
+            method: "DELETE"
+        })
+
+        return response.status < 500;
+    } catch (e) {
+        console.log(e);
+        return 0;
+    }
+    return 0;
 }
 
 module.exports = Clases;
