@@ -2,25 +2,28 @@
     <link rel="stylesheet" href="/css/AcademiasAll.css">
 </head>
 {{> navStudent}}
-<div class="content mt-5">
-    <div class="container">
-        <div>
-            <div class="text-center card-box">
-                <h6 class="mt-4">Nombre de la clase</h6>
-                <div class="col">
-                    <input name="nombre" type="text" class="form-control"
-                        value="{{clase.nombre}}" disabled>
-                </div>
-                <h6 class="mt-4">Alumnos máximo</h6>
-                <div class="col">
-                    <input name="nombre" type="number" class="form-control"
-                        value="{{clase.alumnosMax}}" disabled>
-                </div>
-                <div class="col">
-                    <button class="btn btn-dark"><a class=" text-light"
-                            href="/links/Inscripcion">Inscribirme</a></button>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+    <div class="content mt-5">
+        <div class="container">
+            <div>
+                <div class="text-center card">
+                    <h6 class="mt-4">Nombre de la clase</h6>
+                    <div class="col">
+                        <input name="nombre" type="text" class="form-control" value="{{clase.nombre}}" disabled>
+                    </div>
+                    <h6 class="mt-4">Alumnos máximo</h6>
+                    <div class="col">
+                        <input name="nombre" type="number" class="form-control" value="{{clase.alumnosMax}}" disabled>
+                    </div>
+                    <div class="col">
+                        <input type="hidden" name="cmd" value="_xclick">
+                        <input type="hidden" name="business" value="abrahamx97@gmail.com">
+                        <input type="hidden" name="item_name" value="{{clase.nombre}}">
+                        <input type="hidden" name="amount" value="800.00">
+                        <input type="submit" name="Inscribirme" class="btn btn-dark">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</form>
