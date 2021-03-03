@@ -17,6 +17,7 @@ router.post('/StudentSignup', async(req, res) => {
 })
 
 router.get('/PanelEstudiante', (req, res) => {
+    console.log(req.session.userId);
     res.render('links/EstudiantePanel');
 })
 
@@ -35,15 +36,16 @@ router.post('/DeleteStudent', async(req, res) => {
 })
 
 router.get('/UpdateStudent', async(req, res) => {
-    let student = await Student.GetById(req.session.userId);
     console.log(req.session.userId);
+    let student = await Student.GetById(req.session.userId);
+    
     console.log(student);
     res.render('links/UpdateStudent', { student: student });
 })
 
 router.post('/UpdateStudent', async(req, res) => {
     if (await Student.Update(req.session.userId, req.body))
-        res.redirect("/links/UpdateStudent");
+        res.redirect("/links/PanelEstudiante");
     else
         res.redirect("/error");
 })

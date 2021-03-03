@@ -1,27 +1,28 @@
 {{> navStudent}}
+
 <head>
     <link rel="stylesheet" href="/css/RegisterStudent.css">
 </head>
-<h1 class="text-light text-center mt-4">Eliminar estudiante</h1>
-<div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
-    <div>
-        <form method="POST" action="/links/DeleteStudent">
+<form method="POST" action="/links/DeleteStudent">
+    <h1 class="text-light text-center mt-4">Eliminar estudiante</h1>
+    <div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+        <div>
+
             <div class="row mt-4 ml-2">
                 <div class="col">
                     <h6><label>Nombre</label></h6>
-                    <input name="nombre" type="text" class="form-control"
-                        value="{{student.nombre}}" disabled>
+                    <input name="nombre" type="text" class="form-control" value="{{student.nombre}}" disabled>
                 </div>
                 <div class="col mr-4">
                     <h6><label>Apellidos</label></h6>
-                    <input name="apellidos" type="text" class="form-control"
-                        value="{{student.apellido}}" disabled>
+                    <input name="apellidos" type="text" class="form-control" value="{{student.apellido}}" disabled>
                 </div>
             </div>
 
             <div class="row mt-3 ml-4">
                 <button type="button" class="btn-hover color-8" data-toggle="modal"
                     data-target="#myModal">Eliminar</button>
+                <button class="btn-hover color-8"><a class=" text-light" href="/links/PanelEstudiante">Cancelar</a></button>
                 <!-- The Modal -->
                 <div class="modal fade" id="myModal">
                     <div class="modal-dialog">
@@ -48,9 +49,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="btn-hover color-1"><a class=" text-light"
-                        href="/links/PanelEstudiante">Cancelar</a></button>
             </div>
-        </form>
+        </div>
     </div>
-</div>
+</form>

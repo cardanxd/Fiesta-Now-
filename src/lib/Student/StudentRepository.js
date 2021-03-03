@@ -32,34 +32,21 @@ Student.Add = async function(Student) {
 Student.GetById = async function(Id) {
     const fetch = require("node-fetch")
     const https = require("https");
+
     const agent = new https.Agent({
         rejectUnauthorized: false
     });
 
-    try {
 
-        let UrlGet = global.apiConnection + "/api/estudiante" + Id;
-        console.log(UrlGet);
-        let response = await fetch(UrlGet, {
-            method: "GET"
-        })
-        let item = await response.json();
+    let result = await fetch(global.apiConnection + "/api/estudiante/" + Id)
+        .then(response => response.json())
+        .then(json => json)
 
-        return item.data;
-    } catch (e) {
-        console.log("Error", "color:red");
-    }
-
-    return;
+    return result.data;
 }
 
 Student.Delete = async function(id) {
     const fetch = require("node-fetch")
-    const https = require("https");
-    const agent = new https.Agent({
-        rejectUnauthorized: false
-    });
-
     try {
 
         let UrlDelete = global.apiConnection + "/api/estudiante" + id;
