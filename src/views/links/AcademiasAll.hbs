@@ -4,68 +4,66 @@
 {{> navStudent}}
 <div class="content mt-5">
     <div class="container">
-        <div>
-            <div class="card">
+        <a href="#panel" class="btn-flotante">Inicio</a>
+        <div class="card">
 
-                <div class="row mt-4">
-                    <div class="search mx-auto">
-                        <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
-                            placeholder="Escribe el nombre de la academia">
-                        <button type="button" class="searchButton">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
+            <div class="row mt-4">
+                <div class="search mx-auto">
+                    <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
+                        placeholder="Escribe el nombre de la academia">
+                    <button type="button" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
+            </div>
 
-                <div class="row mt-5">
-                    {{#each academias}}
-                    <div class="col-lg-4" name="Target">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="col">
-                                    <h4 class="mr-4">{{nombre}}</h4>
-                                </div>
-                                <ul class="social-links list-inline">
-                                    <li class="list-inline-item"><a title="Ver clases" data-placement="top"
-                                            data-toggle="tooltip" class="tooltips" href="/links/Clases/{{id}} "
-                                            data-original-title="Ver"><i class="fa fa-eye"></i></a></li>
-                                    <li class="list-inline-item"><a title="Ver informacion" data-placement="top"
-                                            data-toggle="tooltip" class="tooltips" href="/links/AcademiaInfo/{{id}} "
-                                            data-original-title="Ver"><i class="fa fa-info"></i></a></li>
-                                </ul>
-                                <div class="col mt-4">
-                                    <div class="row">
-                                        <h4 class="mr-2">Teléfono</h4>
-                                    </div>
-                                </div>
-                                <p class="text-muted">
-                                    {{numero}}
-                                </p>
-                                <div class="col">
-                                    <div class="row">
-                                        <h4 class="mr-2">Dirección</h4>
-                                    </div>
-                                </div>
-                                <p class="text-muted">
-                                    {{direction}}
-                                </p>
-                                <div class="col">
-                                    <div class="row">
-                                        <h4 class="mr-2">Descripción</h4>
-                                    </div>
-                                </div>
-                                <p class="contenedor w-100 text-muted">
-                                    {{descripcion}}
-                                </p>
+            <div class="row mt-5">
+                {{#each academias}}
+                <div class="col-lg-4" name="Target">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="col">
+                                <h4 class="mr-4">{{nombre}}</h4>
                             </div>
+                            <ul class="social-links list-inline">
+                                <li class="list-inline-item"><a title="Ver clases" data-placement="top"
+                                        data-toggle="tooltip" class="tooltips" href="/links/Clases/{{id}} "
+                                        data-original-title="Ver"><i class="fa fa-eye"></i></a></li>
+                                <li class="list-inline-item"><a title="Ver informacion" data-placement="top"
+                                        data-toggle="tooltip" class="tooltips" href="/links/AcademiaInfo/{{id}} "
+                                        data-original-title="Ver"><i class="fa fa-info"></i></a></li>
+                            </ul>
+                            <div class="col mt-4">
+                                <div class="row">
+                                    <h4 class="mr-2">Teléfono</h4>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                {{numero}}
+                            </p>
+                            <div class="col">
+                                <div class="row">
+                                    <h4 class="mr-2">Dirección</h4>
+                                </div>
+                            </div>
+                            <p class="text-muted">
+                                {{direction}}
+                            </p>
+                            <div class="col">
+                                <div class="row">
+                                    <h4 class="mr-2">Descripción</h4>
+                                </div>
+                            </div>
+                            <p class="contenedor w-100 text-muted">
+                                {{descripcion}}
+                            </p>
                         </div>
                     </div>
-                    {{/each}}
                 </div>
-
+                {{/each}}
             </div>
-            <!-- container -->
         </div>
+        <!-- container -->
     </div>
     <script src="/js/Panel.js"></script>
 </div>
