@@ -1,25 +1,19 @@
-document.getElementById("addStudent").addEventListener("click", function() {
+document.getElementById('email').addEventListener('input', function () {
+    campo = event.target;
+    valido = document.getElementById('emailOK');
 
-    let estudiante = {
-        Nombre: name.value,
-        Apellido: lastname.value,
-        Email: email.value,
-        Password: password.value,
-        CuentaID: 5
+    var reg = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+
+    var regOficial = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
+
+    //Se muestra un texto a modo de ejemplo, luego va a ser un icono
+    if (reg.test(campo.value) && regOficial.test(campo.value)) {
+        valido.innerText = "Correo válido";
+    } else if (reg.test(campo.value)) {
+        valido.innerText = "Correo válido";
+
+    } else {
+        valido.innerText = "Correo no válido";
+
     }
-
-    const urlStudent = 'https://localhost:5001/api/estudiante'
-
-    fetch(urlStudent, {
-        method:'POST',
-        headers:{
-            'Content-Type':'application/json'
-        },
-        body:JSON.stringify(estudiante)
-    })
-    .then(response => response.json())
-    .then(json => {
-            location.href = "./EstudiantePanel.html"
-    })
-    .then(err => console.log(err));
-})
+});

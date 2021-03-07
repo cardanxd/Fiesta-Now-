@@ -1,2 +1,40 @@
+<head>
+    <link rel="stylesheet" href="/css/AcademiasAll.css">
+</head>
+{{> navStudent}}
 
-
+<h1 class="text-light text-center mt-4">Formato de inscripcion</h1>
+<h6 class="text-light text-center mt-4">Llenar los datos para realizar la suscripción</h6>
+<div class="card mx-auto mt-5" style="width: 90%; margin-bottom: 150px;">
+    <div>
+        <form method="POST" action="/links/inscripcion">
+            <div class="row mt-4 ml-2">
+                <div class="col">
+                    <h6><label>Nombre</label></h6>
+                    <input name="nombre" type="text" class="form-control" placeholder="Nombre" required>
+                </div>
+                <div class="col mr-4">
+                    <h6><label>Apellidos</label></h6>
+                    <input name="apellidos" type="text" class="form-control" placeholder="Apellidos" required>
+                </div>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Correo electrónico</label></h6>
+                <input name="correo" type="email" class="form-control" placeholder="Correo electrónico" id="email"
+                    required>
+                <span class="mt-4" id="emailOK" style="color:blue"></span>
+            </div>
+            <div class="row mt-4 ml-4 mr-4">
+                <h6><label>Contraseña nueva</label></h6>
+                <input name="password" type="password" class="form-control" placeholder="Contraseña nueva" minlength="8"
+                    maxlength="20" required>
+            </div>
+            <div class="row mt-3 ml-4">
+                <input type="submit" name="Register" class="btn-hover color-8" value="Registrarme">
+                <button type="button" class="btn-hover color-8"><a class=" text-light"
+                        href="/links/type">Cancelar</a></button>
+            </div>
+        </form>
+    </div>
+    <script src="/js/RegisterStudent.js"></script>
+</div>

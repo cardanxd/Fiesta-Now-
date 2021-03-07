@@ -39,16 +39,9 @@
                                 </div>
                             </div>
                             <div class="col">
-                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-                                    <input type="hidden" name="cmd" value="_xclick">
-                                    <input type="hidden" name="business" value="abrahamx97@gmail.com">
-                                    <input type="hidden" name="currency_code" value="MXN">
-                                    <input type="hidden" name="item_name" value="{{clase.nombre}}">
-                                    <input type="hidden" name="amount" value="120.00">
-                                    <input type="submit" name="Inscripción" value="Inscribirme" class="btn btn-dark">
-                                    <button class="btn btn-dark"><a class=" text-light"
-                                            href="/links/ClassInfo/{{clase.id}}">Ver info</a></button>
-                                </form>
+
+                                <button class="btn btn-dark"><a class=" text-light"
+                                        href="/links/ClassInfo/{{clase.id}}">Ver info</a></button>
                             </div>
                         </div>
                     </div>
@@ -60,4 +53,54 @@
         <!-- container -->
     </div>
     <script src="/js/Panel.js"></script>
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script>
+
+        // Render the PayPal button
+
+        paypal.Button.render({
+
+            // Set your environment
+
+            env: 'sandbox', // sandbox | production
+
+            // Specify the style of the button
+
+            style: {
+                label: 'checkout',
+                size: 'small',    // small | medium | large | responsive
+                shape: 'pill',     // pill | rect
+                color: 'gold'      // gold | blue | silver | black
+            },
+
+            // PayPal Client IDs - replace with your own
+            // Create a PayPal app: https://developer.paypal.com/developer/applications/create
+
+            client: {
+                sandbox: 'AZDxjDScFpQtjWTOUtWKbyN_bDt4OgqaF4eYXlewfBP4-8aqX3PiV8e1GWU6liB2CUXlkA59kJXE7M6R',
+                production: '<insert production client id>'
+            },
+
+            payment: function (data, actions) {
+                return actions.payment.create({
+                    payment: {
+                        transactions: [
+                            {
+                                amount: { total: '120', currency: 'MXN' }
+                            }
+                        ]
+                    }
+                });
+            },
+
+            onAuthorize: function (data, actions) {
+                return actions.payment.execute().then(function () {
+                    window.alert('¡Feliciades, pago realizado!');
+                    location.href = "/links/inscripcion";
+                });
+            }
+
+        }, '#paypal-button-container');
+
+    </script>
 </div>
