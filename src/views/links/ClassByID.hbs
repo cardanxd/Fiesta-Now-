@@ -2,67 +2,66 @@
     <link rel="stylesheet" href="/css/AcademiasAll.css">
 </head>
 {{> navStudent}}
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
-    <div class="content mt-5">
-        <div class="container">
-            <a href="#panel" class="btn-flotante">Inicio</a>
-            <div class="card">
-                <div class="row mt-4">
-                    <div class="search mx-auto">
-                        <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
-                            placeholder="Escribe el nombre de la clase">
-                        <button type="button" class="searchButton">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
+<div class="content mt-5">
+    <div class="container">
+        <a href="#panel" class="btn-flotante">Inicio</a>
+        <div class="card">
+            <div class="row mt-4">
+                <div class="search mx-auto">
+                    <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
+                        placeholder="Escribe el nombre de la clase">
+                    <button type="button" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
                 </div>
+            </div>
 
-                <div class="row mt-5">
-                    {{#each horarios}}
-                    <div class="col-lg-4" name="Target">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="col">
-                                    <h4 class="mr-4">{{clase.nombre}}</h4>
+            <div class="row mt-5">
+                {{#each horarios}}
+                <div class="col-lg-4" name="Target">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="col">
+                                <h4 class="mr-4">{{clase.nombre}}</h4>
+                            </div>
+                            <h6 class="mt-4">Alumnos máximo</h6>
+                            <div class="col">
+                                <h4 class="mr-4">{{clase.alumnosMax}}</h4>
+                            </div>
+                            <h6 class="mt-4">Horario de la semana</h6>
+                            <div id='horario' class='contenedor'>
+                                <div class="card">
+                                    {{#each horarios}}
+                                    <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
+                                    {{/each}}
                                 </div>
-                                <h6 class="mt-4">Alumnos máximo</h6>
-                                <div class="col">
-                                    <h4 class="mr-4">{{clase.alumnosMax}}</h4>
-                                </div>
-                                <h6 class="mt-4">Horario de la semana</h6>
-                                <div id='horario' class='contenedor'>
-                                    <div class="card">
-                                        {{#each horarios}}
-                                        <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
-                                        {{/each}}
-                                    </div>
-                                </div>
-                                <div class="col">
+                            </div>
+                            <div class="col">
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
                                     <input type="hidden" name="cmd" value="_xclick">
                                     <input type="hidden" name="business" value="abrahamx97@gmail.com">
+                                    <input type="hidden" name="currency_code" value="MXN">
                                     <input type="hidden" name="item_name" value="{{clase.nombre}}">
-                                    <input type="hidden" name="amount" value="10.00">
+                                    <input type="hidden" name="amount" value="199.00">
                                     <input type="submit" name="Inscripción" value="Inscribirme" class="btn btn-dark">
                                     <button class="btn btn-dark"><a class=" text-light"
                                             href="/links/ClassInfo/{{clase.id}}">Ver info</a></button>
-
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    {{else}}
-                    <div class="mx-auto text-center">
-                        <p>La academia no cuenta con clases registradas, solicite una con el contacto de la academia.
-                        </p>
-                    </div>
-                    {{/each}}
                 </div>
-
+                {{else}}
+                <div class="mx-auto text-center">
+                    <p>La academia no cuenta con clases registradas, solicite una con el contacto de la academia.
+                    </p>
+                </div>
+                {{/each}}
             </div>
-            <!-- container -->
-        </div>
-        <script src="/js/Panel.js"></script>
-    </div>
 
-</form>
+        </div>
+        <!-- container -->
+    </div>
+    <script src="/js/Panel.js"></script>
+</div>
