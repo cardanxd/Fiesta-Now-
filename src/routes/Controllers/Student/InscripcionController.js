@@ -9,12 +9,11 @@ router.get('/inscripcion', (req, res) => {
 })
 
 router.get('/misclases', async(req, res) => {
-    console.log(req.session.userId);
-    console.log(req.session.CuentaId);
-    var id = req.session.cuentaId;
-    let clases = await Inscripcion.GetClases(id);
-    let data = clases.data;
-    res.render('links/MisClases', { data: data });
+    console.log(req.session.CuentaId)
+    let clases = await Inscripcion.GetClases(req.session.CuentaId);
+    let obj = clases.data;
+    console.log(obj);
+    res.render('links/MisClases', { clases: obj });
 })
 
 module.exports = router;

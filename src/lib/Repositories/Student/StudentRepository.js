@@ -101,7 +101,7 @@ Student.Update = async function (Id, student) {
 Student.GetClases = async function (Id) {
     const fetch = require("node-fetch")
     try {
-        let UrlGet = "http://getdancenow.somee.com/api/suscripsion/Clases/295";
+        let UrlGet = global.apiConnection + "/api/suscripsion/Clases/"+Id;
         // console.log(UrlGet);
         let response = await fetch(UrlGet, {
 
@@ -118,8 +118,5 @@ Student.GetClases = async function (Id) {
 
     return;
 }
-
-
-
 
 module.exports = Student;

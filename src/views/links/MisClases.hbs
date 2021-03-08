@@ -19,12 +19,20 @@
             </div>
 
             <div class="row mt-5">
-                {{#each data}}
+                {{#each clases}}
                 <div class="col-lg-4" name="Target">
-                    <div class="text-center card-box">
+                    <div class="text-center card-box1">
                         <div class="member-card pt-2 pb-2">
                             <div class="col">
-                                <h4 class="mr-4">{{data.inicio}}</h4>
+                                <h4 class="mr-4">{{clase.nombre}}</h4>
+                            </div>
+                             <h6 class="mt-4">Fecha de suscripción</h6>
+                            <div class="col">
+                                <p class="card-text mr-4">{{suscripcion.inicio}}</p>
+                            </div>
+                            <h6 class="mt-4">Vencimiento de suscripción</h6>
+                            <div class="col">
+                                <p class="card-text mr-4">{{suscripcion.vencimiento}}</p>
                             </div>
                         </div>
                     </div>
