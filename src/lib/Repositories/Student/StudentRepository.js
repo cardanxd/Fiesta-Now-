@@ -1,6 +1,6 @@
 const Student = {}
 
-Student.Add = async function(Student) {
+Student.Add = async function (Student) {
     const fetch = require("node-fetch")
     let obj = {
         Nombre: Student.nombre,
@@ -23,7 +23,7 @@ Student.Add = async function(Student) {
     return item.data;
 }
 
-Student.GetById = async function(Id) {
+Student.GetById = async function (Id) {
     const fetch = require("node-fetch")
     const https = require("https");
 
@@ -39,7 +39,7 @@ Student.GetById = async function(Id) {
     return result.data;
 }
 
-Student.Delete = async function(id) {
+Student.Delete = async function (id) {
     const fetch = require("node-fetch")
     const https = require("https");
     const agent = new https.Agent({
@@ -62,7 +62,7 @@ Student.Delete = async function(id) {
     return 0;
 }
 
-Student.Update = async function(Id, student) {
+Student.Update = async function (Id, student) {
     const fetch = require("node-fetch")
     const https = require("https");
     const agent = new https.Agent({
@@ -80,13 +80,13 @@ Student.Update = async function(Id, student) {
         console.log(UrlPut, JSON.stringify(obj));
 
         let response = await fetch(UrlPut, {
-                method: 'PUT',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify(obj)
-            })
-            // console.log(response);
+            method: 'PUT',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(obj)
+        })
+        // console.log(response);
 
         return true;
     } catch (e) {
@@ -97,5 +97,29 @@ Student.Update = async function(Id, student) {
     return false;
 
 }
+
+Student.GetClases = async function (Id) {
+    const fetch = require("node-fetch")
+    try {
+        let UrlGet = "http://getdancenow.somee.com/api/suscripsion/Clases/295";
+        // console.log(UrlGet);
+        let response = await fetch(UrlGet, {
+
+            method: "GET"
+        })
+        let item = await response.json();
+        let data = {
+            data: item
+        }
+        return await data;
+    } catch (e) {
+        // console.log("Error", "color:red");
+    }
+
+    return;
+}
+
+
+
 
 module.exports = Student;

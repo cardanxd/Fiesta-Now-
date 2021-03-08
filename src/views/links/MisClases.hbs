@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="/css/AcademiasAll.css">
+</head>
+
+{{> navStudent}}
+
+<div class="content mt-5">
+    <div class="container">
+        <a href="#panel" class="btn-flotante">Inicio</a>
+        <div class="card">
+            <div class="row mt-4">
+                <div class="search mx-auto">
+                    <input onkeyup="SearchTargets()" type="text" class="searchTerm" id="Search"
+                        placeholder="Escribe el nombre de la clase">
+                    <button type="button" class="searchButton">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                {{#each data}}
+                <div class="col-lg-4" name="Target">
+                    <div class="text-center card-box">
+                        <div class="member-card pt-2 pb-2">
+                            <div class="col">
+                                <h4 class="mr-4">{{data.inicio}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+
+        </div>
+        <!-- container -->
+    </div>
+    <script src="/js/Panel.js"></script>
+</div>

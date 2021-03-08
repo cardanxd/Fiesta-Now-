@@ -43,7 +43,8 @@ async function ExistAcademy(account) {
 
             user = {
                 id: user.data.id,
-                panel: response.data.rol == _academiaAccount ? "/links/PanelAcademia" : "/links/PanelEstudiante"
+                panel: response.data.rol == _academiaAccount ? "/links/PanelAcademia" : "/links/PanelEstudiante",
+                CuentaId: response.data.id
             }
 
             console.log(user);
@@ -69,6 +70,7 @@ router.post("/signin", async(req, res) => {
 
     if (user) {
         req.session.userId = user.id;
+        req.session.CuentaId = user.CuentaId;
         redirect = user.panel;
     } else {
         req.flash('failLogin', 'No se encontro ninguna cuenta con esos datos registrada, favor de verificar los datos');
