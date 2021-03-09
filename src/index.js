@@ -41,7 +41,7 @@ app.use(session({
 }))
 app.use(flash());
 app.use(morgan('dev'));
-app.use(express.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: true }))
 app.use(express.json());
 
 //Global variables

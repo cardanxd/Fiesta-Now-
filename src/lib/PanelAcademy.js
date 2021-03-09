@@ -1,5 +1,5 @@
 const Panel = {}
-
+const Inscripcion = require('./Repositories/InscripcionRepository');
 
 Panel.GetHorario = async function GetHorarios(result, format = true) {
     const fetch = require("node-fetch")
@@ -20,12 +20,16 @@ Panel.GetHorario = async function GetHorarios(result, format = true) {
     for (let i = 0; i < result.length; i++) {
         let response = await fetch(result[i].horarios);
         let data = await response.json();
+        let inscriptions = await Inscripcion.GetAllClassSusucriptions(result[i].id);
+        let inscriplen = inscriptions.data.length;
+
         horarios.push({
             clase: result[i],
-            horarios: format ? data.data.map(format12Hours) : data.data
+            horarios: format ? data.data.map(format12Hours) : data.data,
+            allInscripcions: inscriplen == undefined ? 0 : inscriplen
         })
     }
-
+    console.log(horarios);
     return horarios;
 }
 

@@ -1,7 +1,49 @@
 <head>
     <link rel="stylesheet" href="/css/panel.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap" rel="stylesheet"> 
 </head>
 {{> navAcademy}}
+
+<div class="target-statistics">
+    <div class="table-info">
+
+        <div class="card bg-danger">
+            <div class="taget-info">
+                <i class="fa fa-user fa-4x mt-3" aria-hidden="true"></i>
+                <div class="info">
+                    <p>{{infoTargets.users}}</p>
+                    <p class="type">Usuarios</p>
+                    <p class="fs-6">Total de usuarios</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-success ">
+            <div class="taget-info">
+                <i class="fa fa-book fa-4x mt-3" aria-hidden="true"></i>
+                <div class="info">
+                    <p>{{infoTargets.suscriptions}}</p>
+                    <p class="type">Suscribisiones</p>
+                    <p class="fs-6">Total de suscribciones</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card bg-info">
+            <div class="taget-info">
+                <i class="fa fa-university fa-4x mt-3" aria-hidden="true"></i>
+                <div class="info">
+                    <p>{{infoTargets.classes}}</p>
+                    <p class="type">Clases</p>
+                    <p class="fs-6">Total de clases</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 <div class="content mt-5">
     <div class="container">
 
@@ -25,12 +67,13 @@
                 <div class="row mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-2">
                     {{#each horarios}}
                     <div class="col-lg-4" name="Target">
-                        <div class="text-center card-box">
-                            <div class="member-card pt-2 pb-2">
-                                <div class="card-header">
+                        <div class="text-center card">
+                            <div class=" pt-2 pb-2">
+                                <div class="">
                                     <h4>{{clase.nombre}}</h4>
                                 </div>
                                 <ul class="social-links list-inline">
+                                    <h6 class="mt-4">Alumnos: {{allInscripcions}}</h6>
                                     <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip"
                                             class="tooltips" href="/links/UpdateClass/{{clase.id}}"
                                             data-original-title="Editar"><i class="fa fa-pencil"></i></a></li>
@@ -40,12 +83,10 @@
                                     </li>
                                 </ul>
                                 <h6 class="mt-4">Horario de la semana</h6>
-                                <div id='horario' class='contenedor w-100'>
-                                    <div class="card-body ">
+                                <div id='horario' class='contenedor w-100 scroll scroll-color-colors'>
                                         {{#each horarios}}
                                         <p class="card-text"> {{dia}}: {{apertura}} - {{cierre}}</p>
                                         {{/each}}
-                                    </div>
                                 </div>
                             </div>
                         </div>

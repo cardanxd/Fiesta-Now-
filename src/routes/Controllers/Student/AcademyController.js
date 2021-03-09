@@ -5,7 +5,6 @@ const Academias = require('./../../../lib/Repositories/Student/AcademiasReposito
 
 router.get('/Academias', async(req, res) => {
     const academias = await Academias.GetAcademias();
-    console.log(academias);
     console.log(req.session.userId);
     res.render('links/AcademiasAll', { academias });
 })

@@ -2,12 +2,13 @@
 	01 -> GENERAL
 ===========================================================*/
 
+
 /*----------------------------*\
 	Typography
 \*----------------------------*/
 
 body {
-    background-color: #f08621;
+    background: radial-gradient(#FFF176, #F57F17);
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #333;

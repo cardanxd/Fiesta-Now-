@@ -21,18 +21,17 @@ body {
     height: 67px;
     opacity: 0.9;
     z-index: 2;
-}
-
-.nav a {
-    padding-left: 20px;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 .option {
     flex: 1;
     justify-content: right;
     display: flex;
-    width: 100%;
+    width: 95%;
     color: white;
+    flex-direction: row-reverse;
 }
 
 .option a {
@@ -61,12 +60,13 @@ body {
     flex: 1;
     width: 100%;
     position: absolute;
-    margin-top: 300px;
-    padding-left: 260px;
+    margin-top: 25%;
+    padding-left: 25%;
     font-size: 60px;
     z-index: 1;
     font-family: 'Redressed', cursive;
-    background: rgba(237, 237, 255, 0.548)
+    background: rgba(237, 237, 255, 0.548);
+    text-align: center;
 }
 
 .my-element {
@@ -100,11 +100,13 @@ body {
 /*info*/
 
 .info {
+    font-family: 'Work Sans', sans-serif;
     height: 500px;
-    padding-top: 100px;
+    padding-top: 50px;
     text-align: center;
     font-size: 30px;
     background: #f08621;
+    text-align: justify;
 }
 
 .info h1 {
@@ -116,4 +118,131 @@ body {
 .info p {
     color: black;
     margin: auto 210px;
+    font-size: 25px;
+}
+
+
+/*tablet horizontal*/
+
+@media only screen and (max-width: 1200px) {
+    .text-image p {
+        font-size: 40px;
+    }
+    .valores {
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        grid-column-gap: 50px;
+        width: 90%;
+    }
+    .info p {
+        font-size: 20px;
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+/*tablets*/
+
+@media only screen and (max-width: 800px) {
+    .text-image {
+        font-size: larger;
+        min-width: 380px;
+        margin-top: 35%;
+    }
+    .text-image p {
+        font-size: 35px;
+        margin-left: -50px;
+    }
+    .info {
+        font-family: 'Work Sans', sans-serif;
+        padding-top: 100px;
+        margin: auto;
+        text-align: center;
+        font-size: medium;
+        width: auto;
+        background: #f08621;
+        text-align: justify;
+    }
+    .info p {
+        width: 80%;
+        margin: auto;
+        font-family: 'Work Sans', sans-serif;
+        font-size: medium;
+    }
+    .valores {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        grid-gap: 30px;
+    }
+    .valores p {
+        font-size: medium;
+    }
+    .nav {
+        width: 95%;
+    }
+    .option {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .option a {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+/*Mobil*/
+
+@media only screen and (max-width: 400px) {
+    .text-image {
+        font-size: small;
+        min-width: 380px;
+    }
+    .text-image p {
+        margin-left: 5px;
+    }
+    .info {
+        font-family: 'Work Sans', sans-serif;
+        padding-top: 100px;
+        margin: auto;
+        text-align: center;
+        font-size: medium;
+        width: auto;
+        background: #f08621;
+        text-align: justify;
+    }
+    .info p {
+        width: 80%;
+        margin: auto;
+        font-family: 'Work Sans', sans-serif;
+        font-size: medium;
+    }
+    .valores {
+        grid-template-columns: 1fr;
+        width: 80%;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        grid-gap: 30px;
+    }
+    .valores p {
+        font-size: medium;
+    }
+    .nav {
+        width: 100%;
+    }
+    .option {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .option a {
+        width: 100%;
+        text-align: center;
+    }
 }

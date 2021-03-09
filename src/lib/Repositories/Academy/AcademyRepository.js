@@ -37,7 +37,6 @@ Academy.Add = async function(Academy) {
         body: JSON.stringify(obj)
     })
     let item = await response.json();
-    console.log(item);
 
     return item.data;
 

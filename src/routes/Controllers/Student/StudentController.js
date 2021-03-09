@@ -38,7 +38,7 @@ router.post('/DeleteStudent', async(req, res) => {
 router.get('/UpdateStudent', async(req, res) => {
     console.log(req.session.userId);
     let student = await Student.GetById(req.session.userId);
-    
+
     console.log(student);
     res.render('links/UpdateStudent', { student: student });
 })

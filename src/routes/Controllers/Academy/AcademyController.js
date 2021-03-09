@@ -3,7 +3,6 @@
 
  const Academy = require('../../../lib/Repositories/Academy/AcademyRepository');
 
-
  router.get('/AcademySignup', (req, res) => {
      //// console.log(horarios)
      res.render('links/AcademySignup');
@@ -11,6 +10,7 @@
 
 
  router.post('/AcademySignup', async(req, res) => {
+     console.log(req.body);
      let academy = await Academy.Add(req.body);
      req.session.userId = academy.id;
 

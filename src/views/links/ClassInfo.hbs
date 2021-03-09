@@ -1,5 +1,6 @@
 <head>
     <link rel="stylesheet" href="/css/AcademiasAll.css">
+        <script src="https://js.stripe.com/v3/"></script>
 </head>
 {{> navStudent}}
 
@@ -77,7 +78,7 @@
         onAuthorize: function (data, actions) {
             return actions.payment.execute().then(function () {
                 window.alert('¡Feliciades, pago realizado!');
-                location.href = "/links/inscripcion";
+                location.href = "/links/Register/{{clase.id}}";
             });
         }
 
