@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using AutoMapper;
 using Domain.DTOs;
 using Entity;
@@ -22,9 +23,9 @@ namespace Infrestructure.Mappings
                 };
             });// this copy paste above
 
-            CreateMap<Estudiante,EstudianteRequestDto>();
-            CreateMap<Estudiante,EstudianteResponseDto>();
-            CreateMap<EstudianteRequestDto,Estudiante>()
+            CreateMap<Estudiante, EstudianteRequestDto>();
+            CreateMap<Estudiante, EstudianteResponseDto>();
+            CreateMap<EstudianteRequestDto, Estudiante>()
             .AfterMap((source, destination) =>
             {
                 destination.cuenta = new Cuenta()
@@ -40,22 +41,26 @@ namespace Infrestructure.Mappings
             CreateMap<Cuenta, CuentaResponseDto>();
             CreateMap<CuentaRequestDto, Cuenta>();
 
-            CreateMap<Horario,HorarioRequestDto>();
-            CreateMap<Horario,HorarioResponseDto>();
-            
+            CreateMap<Horario, HorarioRequestDto>();
+            CreateMap<Horario, HorarioResponseDto>();
 
-            CreateMap<HorarioRequestDto,Horario>();
 
-            CreateMap<Clase,ClaseRequestDto>();
-            CreateMap<ClaseRequestDto,Clase>();
-            CreateMap<Clase,ClaseResponseDto>()
-            .AfterMap((source,destination) => {
+            CreateMap<HorarioRequestDto, Horario>();
+
+            CreateMap<Clase, ClaseRequestDto>();
+            CreateMap<ClaseRequestDto, Clase>();
+            CreateMap<Clase, ClaseResponseDto>()
+            .AfterMap((source, destination) =>
+            {
                 destination.Horarios = $"https://localhost:5001/api/horario/{source.Id}";
             });
-            
-            CreateMap<Suscripcion,SuscripcionRequestDto>();
-            CreateMap<Suscripcion,SuscripcionResponseDto>();
+
+            CreateMap<Suscripcion, SuscripcionRequestDto>();
+            CreateMap<Suscripcion, SuscripcionResponseDto>();
             CreateMap<SuscripcionRequestDto, Suscripcion>();
+
+            CreateMap<SuscripcionRequestDto,Clase_Suscripciones>();
+            CreateMap<Clase_Suscripciones,SuscripcionResponseDto>();
         }
     }
 }

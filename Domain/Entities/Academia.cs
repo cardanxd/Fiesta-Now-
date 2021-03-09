@@ -15,10 +15,9 @@ namespace Entity
         public double Latitud { get; set; }
         public string Logo { get; set; }
         public string Direction { get; set; }
-
         public int CuentaID { get; set; }
         public Cuenta cuenta { get; set; }
         public ICollection<Clase> Clases { get; set; }
-        public ICollection<CodigoBaile_Academia> CodigoBailes { get; set; }
+        public ICollection<CodigoBaile_Academias> CodigoBaile_Academia;
     }
 }

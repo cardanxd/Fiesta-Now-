@@ -15,7 +15,7 @@ namespace Infrestructure.Repositories
         }
 
         private readonly IRepository<Academia> _academiasRepository;
-        private readonly IRepository<Clase_Suscripciones> _clasesSuscripcionesRepository;
+        private readonly IRepository<Clase_Suscripciones> _clasesSuscripcionesRepository; 
         private readonly IRepository<Clase> _claseRepository;
         private readonly IRepository<CodigoBaile> _codigoBailesRepository;
         private readonly IRepository<Cuenta> _cuentasRepository;
@@ -25,8 +25,8 @@ namespace Infrestructure.Repositories
 
 
         public IRepository<Academia> AcademiasRepository => _academiasRepository ?? new SQLRepository<Academia>(_context);
-        public IRepository<Clase_Suscripciones> ClasesSuscripcionesRepository => _clasesSuscripcionesRepository ?? new SQLRepository<Clase_Suscripciones>(_context);
-        public IRepository<Clase> ClaseRepository => _claseRepository ?? new SQLRepository<Clase>(_context);
+        public IRepository<Clase_Suscripciones> ClasesSuscripcionesRepository => _clasesSuscripcionesRepository ??  new SuscripcionRepository(_context);
+        public IRepository<Clase> ClaseRepository =>  new SQLRepository<Clase>(_context);
         public IRepository<CodigoBaile> CodigoBailesRepository => _codigoBailesRepository ?? new SQLRepository<CodigoBaile>(_context);
         public IRepository<Cuenta> CuentasRepository => _cuentasRepository ?? new SQLRepository<Cuenta>(_context);
         public IRepository<Estudiante> EstudiantesRepository => _estudiantesRepository ?? new SQLRepository<Estudiante>(_context);

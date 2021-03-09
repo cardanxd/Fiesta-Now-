@@ -3,17 +3,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8"/>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8"/>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0"/>
-    <PackageReference Include="FluentValidation.AspNetCore" Version="9.2.0"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.9"/>
-    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.8" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="9.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.9" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.9" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Infrestructure\Infrestructure.csproj"/>
-    <ProjectReference Include="..\Application\Application.csproj"/>
-    <ProjectReference Include="..\Domain\Domain.csproj"/>
+    <ProjectReference Include="..\Infrestructure\Infrestructure.csproj" />
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 </Project>

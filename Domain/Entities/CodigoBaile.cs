@@ -9,7 +9,7 @@ namespace Entity
     {
         public string Descripcion { get; set; }
         public string Tipo { get; set; }
-        public ICollection<CodigoBaile_Academia> CodigoBailes_Academias;
-
+        public ICollection<CodigoBaile_Academias> CodigoBailes_Academias;
+        
     }
 }

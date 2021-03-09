@@ -8,31 +8,28 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\carlo\\.nuget\\packages\\": {}
+    "/home/hhhh/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\API\\Domain\\Domain.csproj",
+      "projectUniqueName": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\API\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-      "outputPath": "D:\\Carlos\\Cuarto cuatrimestre\\APLICACIONES WEB ORIENTADA A SERVICIOS\\PROYECTO\\API\\Domain\\obj\\",
+      "projectPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/Domain.csproj",
+      "packagesPath": "/home/hhhh/.nuget/packages/",
+      "outputPath": "/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/hhhh/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -44,7 +41,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -60,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/hhhh/.dotnet/sdk/3.1.406/RuntimeIdentifierGraph.json"
       }
     }
   }

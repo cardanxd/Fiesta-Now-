@@ -41,13 +41,13 @@ namespace Application.Services
             if (valuesRepits.Any())
                 throw new BusinessException("Algunos horarios entran en el conflicto con otros, verifique el campo de las hora");
 
-            _unitOfWork.ClaseRepository.Update(clase);
+             _unitOfWork.ClaseRepository.Update(clase);
             await _unitOfWork.SaveChangesAsync();
         }
 
         public async Task DeleteClase(int id)
         {
-            await _unitOfWork.AcademiasRepository.Delete(id);
+            await _unitOfWork.ClaseRepository.Delete(id);
             await _unitOfWork.SaveChangesAsync();
         }
 

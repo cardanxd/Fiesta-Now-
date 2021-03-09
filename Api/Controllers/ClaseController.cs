@@ -90,6 +90,7 @@ namespace Api.Controllers
         [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
+            Clase clase = await _service.GetById(id);
             await _service.DeleteClase(id);
             return Ok();
         }

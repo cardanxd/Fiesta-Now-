@@ -13,5 +13,6 @@ namespace Entity
         public int CodigoBaileID { get; set; }
         public CodigoBaile CodigoBaile { get; set; }
         public ICollection<Horario> Horarios { get; set; }
+        public ICollection<Clase_Suscripciones> Clase_Suscripciones;
     }
 }

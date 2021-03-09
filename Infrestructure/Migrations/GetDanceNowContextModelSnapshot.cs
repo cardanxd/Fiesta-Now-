@@ -19,6 +19,28 @@ namespace Infrestructure.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+            modelBuilder.Entity("Domain.Entities.CodigoBaile_Academias", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AcademiaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("CodigoBaileId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AcademiaId");
+
+                    b.HasIndex("CodigoBaileId");
+
+                    b.ToTable("CodigoBaile_Academias");
+                });
+
             modelBuilder.Entity("Entity.Academia", b =>
                 {
                     b.Property<int>("Id")
@@ -70,9 +92,6 @@ namespace Infrestructure.Migrations
                     b.Property<int>("AlumnosMax")
                         .HasColumnType("int");
 
-                    b.Property<int>("ClaseID")
-                        .HasColumnType("int");
-
                     b.Property<int>("CodigoBaileID")
                         .HasColumnType("int");
 
@@ -117,9 +136,6 @@ namespace Infrestructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("AcademiaId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Descripcion")
                         .HasColumnType("nvarchar(max)");
 
@@ -127,8 +143,6 @@ namespace Infrestructure.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AcademiaId");
 
                     b.ToTable("CodigoBailes");
                 });
@@ -213,11 +227,8 @@ namespace Infrestructure.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CuentaId")
+                    b.Property<int>("CuentaId")
                         .HasColumnType("int");
-
-                    b.Property<string>("Detalles")
-                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Inicio")
                         .HasColumnType("datetime2");
@@ -230,6 +241,21 @@ namespace Infrestructure.Migrations
                     b.HasIndex("CuentaId");
 
                     b.ToTable("Suscripcions");
+                });
+
+            modelBuilder.Entity("Domain.Entities.CodigoBaile_Academias", b =>
+                {
+                    b.HasOne("Entity.Academia", "Academia")
+                        .WithMany("CodigoBaile_Academia")
+                        .HasForeignKey("AcademiaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Entity.CodigoBaile", "CodigoBaile")
+                        .WithMany()
+                        .HasForeignKey("CodigoBaileId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("Entity.Academia", b =>
@@ -259,7 +285,7 @@ namespace Infrestructure.Migrations
             modelBuilder.Entity("Entity.Clase_Suscripciones", b =>
                 {
                     b.HasOne("Entity.Clase", "Clase")
-                        .WithMany()
+                        .WithMany("Clase_Suscripciones")
                         .HasForeignKey("ClaseID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -269,13 +295,6 @@ namespace Infrestructure.Migrations
                         .HasForeignKey("SuscripcionID")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("Entity.CodigoBaile", b =>
-                {
-                    b.HasOne("Entity.Academia", null)
-                        .WithMany("CodigoBailes")
-                        .HasForeignKey("AcademiaId");
                 });
 
             modelBuilder.Entity("Entity.Estudiante", b =>
@@ -298,9 +317,11 @@ namespace Infrestructure.Migrations
 
             modelBuilder.Entity("Entity.Suscripcion", b =>
                 {
-                    b.HasOne("Entity.Cuenta", null)
+                    b.HasOne("Entity.Cuenta", "Cuenta")
                         .WithMany("Suscripciones")
-                        .HasForeignKey("CuentaId");
+                        .HasForeignKey("CuentaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

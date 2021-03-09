@@ -21,7 +21,7 @@ namespace Application.Services
 
         public async Task UpdateCuenta(Cuenta cuenta)
         {
-            _unitOfWork.CuentasRepository.Update(cuenta);
+             _unitOfWork.CuentasRepository.Update(cuenta);
             await _unitOfWork.SaveChangesAsync();
         }
 

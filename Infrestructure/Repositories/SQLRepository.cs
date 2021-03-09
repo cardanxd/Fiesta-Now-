@@ -39,7 +39,8 @@ namespace Infrestructure.Repositories
 
         public IEnumerable<T> FindByCondition(Expression<Func<T, bool>> expression)
         {
-            return _entity.Where(expression).AsNoTracking().AsEnumerable();
+            var entity = _entity.Where(expression).AsNoTracking().AsEnumerable();
+            return entity;
         }
 
         public IEnumerable<T> GetAll()
@@ -49,7 +50,8 @@ namespace Infrestructure.Repositories
 
         public async Task<T> GetById(int id)
         {
-            return await _entity.AsNoTracking().SingleOrDefaultAsync(entity => entity.Id == id);
+            var entity = await _entity.AsNoTracking().SingleOrDefaultAsync(entity => entity.Id == id);
+            return entity;
         }
 
         public void Update(T entity)

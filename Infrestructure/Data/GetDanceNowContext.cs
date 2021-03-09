@@ -1,8 +1,7 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
+using Domain.Entities;
 using Entity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.Extensions.Configuration;
 
 namespace Infrestructure.Data
@@ -39,6 +38,8 @@ namespace Infrestructure.Data
         DbSet<Estudiante> Estudiantes { get; }
         DbSet<Horario> Horarios { get; }
         DbSet<Suscripcion> Suscripcions { get; }
+        DbSet<CodigoBaile_Academias> CodigoBaile_Academias { get; }
+
 
     }
 }

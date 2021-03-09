@@ -22,7 +22,7 @@ namespace Application.Services
 
         public async Task UpdateAcademia(Academia academia)
         {
-            _unitOfWork.AcademiasRepository.Update(academia);
+             _unitOfWork.AcademiasRepository.Update(academia);
             await _unitOfWork.SaveChangesAsync();
         }
 

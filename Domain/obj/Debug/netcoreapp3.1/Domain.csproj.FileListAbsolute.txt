@@ -38,21 +38,11 @@ D:/carlo/Documents/APLICACIONES WEB ORIENTADA A SERVICIOS/PROYECTO/GestionCuenta
 /home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/Debug/netcoreapp3.1/Domain.dll
 /home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
 /home/hhhh/Documentos/Fiesta-Now-api/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\Fiesta-Now--master\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.csprojAssemblyReference.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.dll
-D:\Carlos\Cuarto cuatrimestre\APLICACIONES WEB ORIENTADA A SERVICIOS\PROYECTO\API\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-/Domain/bin/Debug/netcoreapp3.1/Domain.deps.json
+/home/hhhh/Documentos/Fiesta-Now-/Domain/bin/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-/Domain/bin/Debug/netcoreapp3.1/Domain.pdb
+/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/Debug/netcoreapp3.1/Domain.csprojAssemblyReference.cache
+/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfoInputs.cache
+/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/Debug/netcoreapp3.1/Domain.AssemblyInfo.cs
+/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/Debug/netcoreapp3.1/Domain.dll
+/home/hhhh/Documentos/Fiesta-Now-/Domain/obj/Debug/netcoreapp3.1/Domain.pdb
